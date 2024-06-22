@@ -1,0 +1,229 @@
+Atlas 4/Wave 9 - Morning Group - Test2(William Shotts, Chapters 7 - 9)
+Total points15/95
+ 
+Welcome, students! This is a self-check test specially designed to evaluate your skills and knowledge. Please avoid using any external resources while taking the test, as it is aimed at assessing your current capabilities and identifying areas for improvement. Let's take this opportunity to enhance your expertise!
+Attention! Linux commands are case sensitive, make sure you won't input wrong answers because of your smartphone.
+Full name *
+asdas asdssaad
+ 
+Choose the commands that print 12 on the screen. *
+0/5
+print 12
+ 
+12
+echo $(12)
+echo $((3*4))
+ls 12
+show 12
+echo 12
+Correct answer
+echo $((3*4))
+echo 12
+ 
+How to use command echo instead of ls. *
+5/5
+echo *
+ 
+ 
+Type in the command to see the square of number 5 using echo and arithmetic operations. *
+0/5
+www
+ 
+Correct answers
+echo $((5*5))
+echo $((5**2))
+ 
+What will be the output of the following command? 
+echo a{A{1,2},B{3,4}}b
+*
+0/5
+a{A{1,2},B{3,4}}b
+ 
+aA1b aA2b aB3b aB4b
+aA1,2,B3,4b
+aA{1,2} B{3,4}b
+ab
+aABb
+Correct answer
+aA1b aA2b aB3b aB4b
+ 
+Type in the command to display the contents of a file named "test.txt" using echo.
+0/5
+www
+ 
+Correct answers
+echo $(cat test.txt)
+echo $(less test.txt)
+ 
+Type in command to print your username followed by the current date and time using echo command.
+*
+0/5
+www
+ 
+Correct answers
+echo "$(whoami) $(date)"
+echo $(whoami ; date)
+echo `whoami ; date`
+echo "$USER $(date)"
+echo $USER $(date)
+echo ՝$USER $(date)՝
+ 
+Type in command to create 12 directories, each for one month of year. *
+···/5
+www
+ 
+Correct answers
+mkdir month{1..12}
+mkdir month{01..12}
+mkdir {1..12}
+mkdir {01..12}
+mkdir month-{1..12}
+ 
+Type in command that will show all available variables. *
+···/5
+www
+ 
+Correct answers
+env
+printenv
+ 
+Choose the key combination that exchanges the word at the cursor position with the one preceding it.
+*
+0/5
+Ctrl-N
+ 
+Alt-N
+Alt-E
+Ctrl-E
+Alt-T
+Ctrl-T
+Alt-L
+Ctrl-L
+Alt-U
+Ctrl-U
+Correct answer
+Alt-T
+ 
+What does the '-' sign mean in terms of the file type? 
+*
+0/5
+Regular file
+Directory
+Link
+Character special file
+Block special file
+Socket file
+Named pipe
+ 
+Correct answer
+Regular file
+ 
+What does the 'l' letter mean in terms of the file type? 
+*
+0/5
+Regular file
+ 
+Directory
+Link
+Character special file
+Block special file
+Socket file
+Named pipe
+Correct answer
+Link
+ 
+What does the 'c' letter mean in terms of the file type? 
+*
+0/5
+Regular file
+ 
+Directory
+Link
+Character special file
+Block special file
+Socket file
+Named pipe
+Correct answer
+Character special file
+ 
+Which three letters are commonly used to specify the read, write, and execute permissions on files?
+*
+0/5
+owe
+rwe
+ 
+rwx
+rw-
+Correct answer
+rwx
+ 
+Choose the correct command that sets the write permission on the file "hello" for other users.
+*
+5/5
+chmod o+w hello
+ 
+chmod o+o hello
+chmod +w hello
+chmod write hello
+chmod other:write hello
+ 
+Everyone can execute the file "script" but no one can read nor write to it. Choose the correct set of permissions below.
+*
+0/5
+rwxrwxrwx
+ 
+rw-rw-rw-
+-wx-wx-wx
+r-xr-xr-x
+--x--xrw-
+--x--x--x
+r--r--r--
+-w--w--w-
+Correct answer
+--x--x--x
+ 
+Choose the correct command that changes the owner of the file "hello" to the user "hilbert".
+*
+5/5
+chmod hilbert hello
+chgrp hilbert hello
+chown hilbert hello
+ 
+chown :hilbert hello
+chown hilbert:sudo hello
+chown hello: hilbert
+ 
+Choose the correct command that changes the group of the file "hello" to the group "hilbert".
+*
+0/5
+chmod hilbert hello
+ 
+chgrp hilbert hello
+chown hilbert hello
+chown :hilbert hello
+chown hilbert:sudo hello
+chown hello: hilbert
+Correct answer
+chgrp hilbert hello
+ 
+What is the purpose of the command 'clear'
+*
+0/5
+A command to erase all content in a text file.
+A command to remove all files and directories in the current directory.
+ 
+A command to clear the terminal screen, removing all previous output and placing the cursor at the top-left corner of the terminal window.
+A command to clear all environment variables set in the current session.
+Correct answer
+A command to clear the terminal screen, removing all previous output and placing the cursor at the top-left corner of the terminal window.
+ 
+What command displays the current permissions of files and directories in Linux?
+*
+0/5
+ls -l
+ps
+ 
+pwd
+cp
+Correct answer
+ls -l

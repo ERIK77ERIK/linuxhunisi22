@@ -1,0 +1,53 @@
+1.
+user@hostname:~$
+user - dser ogtagorcsoxi anun e
+hostname  - dser hamakargchi anune 
+
+$ - sovorakan user
+# - super user
+
+2.
+Shell - shell(kexev)-y csragir e vory yndunum ev mshakum e stexnashari hramannery ev dranq poxancum e OS(operacion hamakargin)-in vorpeszi irakanacni
+
+bash shell
+Bourne Again Shell(bash) - Steve Bourne bash, born again shell - csnvacs noric shell
+
+sh - shell
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(0:00) Ներածություն
+(00:40) Դասընթացի նյութերը
+(07:14) Linux-ի մասին
+(15:00) Shell
+(25:59) date, cal, df, free, exit
+(28:40) Ֆայլային համակարգը Linux-ում
+(31:19) pwd - տեսնել ընթացիկ թղթապանակը
+(33:58) ls - տեսնել թղթապանակի պարունակությունը
+(37:08) cd - տեղափոխվել այլ թղթապանակ
+(40:30) ընթացիկ և ծնող թղթապանակներ
+(44:51) relative և absolute pathname-եր
+(51:01) cd - (հետ վերադարձ), cd ~ (տեղափոխվել home)
+(53:40) ls-ի կիրառություններ և օպցիաներ
+(57:01) ls -l
+(58:30) ls -a
+(1:01:13) ls -F
+(1:01:45) ls -r
+(1:02:00) ls -S
+(1:02:11) ls -t
+(1:03:16) file - իմանալ ֆայլի տեսակը
+(1:04:52) less - տեսնել տեքստային ֆայլի պարունակությունը
+(1:06:42) Ֆայլային համակարգի այլ բաղկացուցիչներ

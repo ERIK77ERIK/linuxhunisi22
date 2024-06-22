@@ -1,0 +1,225 @@
+wildcard, mkdir, rm, mv, cp, hard and symbolic links
+
+1.
+wildcard
+
+* - (match any character) cakacacs simvol, cankacacs qananki, naev kara chlini
+
+? - (match any single character) cankacacs partadir mek simvol
+
+
+[] - (any one of characters) simvolneric voreve meky
+
+[abc] - kam a kam b kam c
+[!abc] - voch a voch b voch c bayc partadir mek simvol
+
+[a-z],[A-Z],[0-9] - mi hat cankacs simvol es mijakayqic
+[!a-z],[!A-Z],[!0-9] - mi hat cankacs simvol bayc voch es mijakayqic
+
+
+[[:class:]] - class(das), et dasi partadir mek simvol
+
+[[:upper:]] - mecsatar patadir mek simvol
+[![:upper:]] - voch mescatar, baci mecsataric partadir mek simvol
+
+[[:lower:]] - poqratar partadir mek simvol
+[![lower:]] - voch poqratar, baci poqrataric partadir mek simvol
+
+[[:alpha:]] - alphabetic character(aybenakan nish), cankacacs partadir mek tar
+[![:alpha:]] - voch tar, baci taric partadir mek simvol(nish)
+
+
+[[:digit:]] - cankacacs partadir mek tiv
+[![:digit:]] - voch tiv, baci tvic partadir mek simvol
+
+orinak [[:lower:]123] - kam mek poqratar kam 1 kam 2 kam 3
+orinak [![:lower:]123] - voch mek poqratar voch 1 voch 2 voch 3 bayc partadir mek simvol
+
+(uxaki ls aneluc mek papka ete papken datarka ban chi berum
+isk ls aneluc mek fayl tpuma ayd fayli anuny)
+
+
+2.
+mkdir - make directory(kazmel texekatu), make(dardsnel), sarquma papka
+
+mkdir: missing operand
+miss - karotel
+missing -anhayt koracs
+a + b
++  - operator
+a,b  - operand,argument
+
+
+3.
+rm - remove(heracnel)
+rm filename - jnjuma file
+rmdir dirname - jnjuma datark papka
+rm -r(recursive) dirname - jnjuma papka, ira bolor parnakutyunov
+rm -R(recursive) dirname - jnjuma papka, ira bolor parnakutyunov
+
+
+4.
+cp - copy(patchenel)
+
+cp file1 file2 - fayl patcheneluc ete file2 chka stexcsuma file2 anunov fayl ev file1 parnakutyuny copy a anum mejy, ete file2 ka u datarka avelacnuma mejy, ete file2 ka u dark chi meji parnakutyuny jnjuma u file1 meji parnakutyuny avelacnuma mejy
+
+cp file1 dir - fayli mejiny papki mej copy aneluc, kap chuni papken datarka te che papki mejiny chi jnjum uxaki avelacnuma file1y papki mej(file1y voch te parnakutyuny), isk ete dir anunov papka chka khamari fayli anun ev kstexcsi fayl dir anunov ev mejy copy kani file1-i parnakutyuny
+
+
+papka copy aneluc ogtagorcsum enq -r kam -R parametry
+cp -r(-R) dir dir1 - ete dir1 anunov papka chka stexcsuma ev mejy copya anum dir-i parnakutyuny, isk ete ka dir1 papki mej aranc mejiny jnjelu avelacnuma dir papken(dir papken voch te dir-i parnakutyuny)
+
+
+5.
+mv - move(sharjel, texasharjel), rename -a anum aysinqn veranvanuma
+
+mv file1 file2 - ete chka file2 anvanapoxuma file1 dardsnuma file2, isk ete ka file2 apa eli file1 anvanapoxuma file2-ov bayc exacs file2-jnjuma ajsinqn mnuma file2-y file1-i parnakutyamb
+(mv file1 file2 -i  -  -i parametr ete file2 anunov file ka texyak e pahum
+-i, --interactive  -  prompt before overwrite, interaktiv hushum veragrumic araj)
+
+
+mv file1 dir - fayli mejiny papki mej mv aneluc, kap chuni papken datarka te che papki mejiny chi jnjum uxaki texapoxuma file1y papki mej(file1y voch te parnakutyuny) ev file1 y jnjuma ir texic, isk ete dir anunov papka chka khamari fayli anun ev file1-y kanvanapoxi dir anunov 
+
+
+mv dir1 dir2 - ete dir2 chka anvanapoxuma dir1 papken dir2 anunov, isk ete dir2 ka texapoxum  dir1-y dir2-i mej aranc dir2i mejiny jnjelu ev dir1-y jnjuma ir texic
+
+
+
+6.
+man - manual(dsernark,texekagirq), man i mijocov duq karox eq hramani ev csragri masin maximum informacia imanal
+
+man -i sekcianery
+.1. user commands
+.2. linuxi mijuki system calleri interface-y tramadrox hatvacsn e, ajsinqn karox em es im csragrum dimel es hamapatasxan csragrin kam hramanin katarelov hamapatasxan system caller
+.3. nuyny arden c -akan gradaranneri masin e xosqy aysinqn csragravorman interface c -ov ogtaxgorcselu hamar
+.4. -ic .8.
+
+.5. fayleri formatnerin arjnvox hatvacsy 5rd sekciana
+
+
+menq man in karox enq poxancel tiv te csragri masin informaciayi vor sekcian enq uzum tesnel
+
+man 5 bash
+No manual entry for bash in section 5
+
+man 5 passwd
+
+
+
+7. 
+erb duq shell ov ashxatum eq duq karox eq ashxatel 4 tesaki bani het
+.1. executable program - gorcsarkvox csragir
+.2. hramani het - vory nerdrvacs e henc shell -i nersum
+.3. shell -i funkcia
+.4. alias(kexcsanun)
+
+bolor tesaknery tarberakelu hamar goyutyun uni type anunov hraman, vory ogtagorcselov karox eq tesnel te inchi het eq arnchvum
+
+8.
+type - type(tip) hramany cuyc e talis te inchi heteq arnchvum aysinqn inch tip e dser poxancacs argumenty
+
+type bash
+bash is /usr/bin/bash
+
+type cd
+cd is a shell builtin
+
+type which
+which is /usr/bin/which
+
+
+
+9.
+which - which(vory) -y asum e te csragiry vory duq ogtagorcsum eq vortex e gtnvum
+
+which bash
+/usr/bin/bash
+
+which ls
+/usr/bin/ls
+
+type ls
+ls is aliased to `ls --color=auto'
+
+(cd csragit chi ayl hramana dra hamar which aneluc ban chi berum)
+
+
+
+10.
+alias - aliass(kexcsanunner) inch vor hramanneri hamar
+
+alias sarqipapka=mkdir
+sarqipapka dir1
+unalias sarqipapka
+
+sarqipapkadir2
+sarqipapka: command not found
+
+
+11.
+apropos - apropos(hamapatasxan) hramany stanuma inch vor mi teqst orinak copy u arajarkuma bolor en hramannery voronq inch vor imastov mot en es artahaytutyany, ajsinqn mez talisa liqy hramanneri cucak voronq copy bari het arnchvum en
+
+
+apropos copy
+man cp
+
+
+
+12.
+whatis - karch cuyc e talis te hramany inchi masinna
+
+entadrenq es alarumem man -ov bacem nayem karch grumem whatis mv
+mv (1)               - move (rename) files
+
+
+
+13.
+ln - ln(link(hxum)), ete uzum em hxvem inch vor mek ayl fayli vra kam shortcut(dyurancum) unenam inch vor mi hat papki meji fayli vra es ogtagorcsumem link 
+
+ln file1 file2  - hard link menq chenq karox unenal papki vra menak fayli vra karanq unenanq u hard link -y tuyl chi talis inch vor mi faylayin hamakargic mek ayl faylayin hamakarg link unenanq
+u et bac toxumnery lracnuma soft link-y, vory yndameny pahuma anvanumy et fayli vori vra vor hxvuma i tarberutyun hard linki vory amboxjakan informacian evs pahuma
+
+ln -s file1 file2  - soft(symbolic link) - -s, --symbolic              make symbolic links instead of hard links
+
+
+
+Handsnararutyun
+W.Shotts, The Linux Command Line - chapter 4(Manipulathing files and directories) and chapter 5(working with commands)
+
+
+
+
+AMPOPUM
+
+wildcard, mkdir, rm,  cp, mv, 
+6. man - dsernarky ramani kam csragri, texekatvutyun
+7 8. type - inch tipi e argumenty
+9. which - vortex e csragiry
+10. alias - unalias - kexcsanun hramanin
+11. apropos - hamaptasxan hramannery
+12. whatis - te hramany inchi masina
+13. ln, ln -s  - hard and soft(symbolic link)
+
+
+(00:00) Ներածություն
+(01:03) Wildcards
+(04:48) * wildcard (match any character)
+(13:00) ? wildcard (match any single character)
+(17:24) [] wildcard (any one of characters)
+(24:51) wildcard classes
+(33:42) mkdir
+(37:51) rm
+(38:26) rm -r
+(40:52) wildcards with commands
+(42:07) cp
+(51:50) mv
+(59:40) --help
+(1:00:27) man
+(1:06:03) type
+(1:07:27) which
+(1:08:17) alias
+(1:10:19) unalias
+(1:10:57) apropos
+(1:13:06) whatis
+(1:13:49) hard and symbolic links
+(1:20:17) homework assignments(tnayin handsnararutyun(arajadranq)) 

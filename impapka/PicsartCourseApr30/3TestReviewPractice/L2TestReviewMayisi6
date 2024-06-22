@@ -1,0 +1,399 @@
+Atlas 4/Wave 9 - Morning Group - Test2(William Shotts, Chapters 1 - 6)
+Total points0/150
+ 
+Welcome, students! This is a self-check test specially designed to evaluate your skills and knowledge. Please avoid using any external resources while taking the test, as it is aimed at assessing your current capabilities and identifying areas for improvement. Let's take this opportunity to enhance your expertise!
+Attention! Linux commands are case sensitive, make sure you won't input wrong answers because of your smartphone.
+The respondent's email (erik2002vardanyan7777@gmail.com) was recorded on submission of this form.
+Full name *
+aaa aaaaa
+ 
+Type in the command to display the current date and time. 
+*
+0/5
+www
+ 
+Correct answer
+date
+ 
+Type in the command to display the calendar of the current month.
+*
+0/5
+www
+ 
+Correct answer
+cal
+ 
+Type in the command to display the current amount of free space on disk drives.
+*
+0/5
+www
+ 
+Correct answers
+df
+df -h
+ 
+Type in the command to display the current working directory.
+*
+0/5
+www
+ 
+Correct answer
+pwd
+ 
+Type in correct command that shows the directory contents.
+*
+0/5
+www
+ 
+Correct answer
+ls
+ 
+Choose the filename that is hidden.
+*
+0/5
+hidden
+ 
+hidden_file
+?file
+.file
+#hidden
+*hide
+Correct answer
+.file
+ 
+
+What is the command to list all files and directories in the current directory, including hidden files?
+*
+0/5
+ls
+ 
+ls -a
+ls -l
+ls -s
+Correct answer
+ls -a
+ 
+Choose the correct option to change the directory to the home directory of user Anush.
+*
+0/5
+cd
+ 
+cd Anush
+cd ~
+cd ~Anush
+cd ?Anush
+cd #Anush
+sudo Anush
+su Anush
+Correct answer
+cd ~Anush
+ 
+Type in the full command that lists the contents of the directory "dir1" and uses the long format (provide the appropriate option).
+*
+0/5
+www
+ 
+Correct answers
+ls -l dir1
+ls dir1 -l
+ls -l dir1/
+ls dir1/ -l
+ 
+Type in the command to list out all the files (including the hidden ones) in the current directory (use the right option to display all the contents in a short format).
+*
+0/5
+www
+ 
+Correct answers
+ls -a
+ls --all
+ls -a .
+ls -a ./
+ls --all .
+ls --all ./
+ls . -a
+ls ./ -a
+ls . --all
+ls ./ --all
+ 
+Type in the command with the proper option to list out all the contents (including the hidden ones) of the parent directory of the current directory. 
+*
+0/5
+www
+ 
+Correct answers
+ls -a ..
+ls -A ..
+ls -a ./..
+ls -A ./..
+ls --all ..
+ls --all ./..
+ls .. --all
+ls ./.. --all
+ls .. -a
+ls .. -A
+ls ./.. -a
+ls ./.. -A
+ 
+ Type in the command to list out the contents of the "dir1" directory in a reverse order.
+*
+0/5
+www
+ 
+Correct answers
+ls -r dir1
+ls dir1 -r
+ls --reverse dir1
+ls dir1 --reverse
+ls dir1/ -r
+ls -r dir1/
+ls --reverse dir1/
+ls dir1/ --reverse
+ 
+Choose the correct command that removes an alias.
+0/5
+remal
+ 
+remalias
+delal
+realias
+unalias
+delalias
+Correct answer
+unalias
+ 
+Choose the correct command to display the type of the file.
+*
+0/5
+type
+ 
+file
+filetype
+typefile
+category
+display
+displayext
+Correct answer
+file
+ 
+
+Type in the name of the command that displays the type of the command.
+0/5
+www
+ 
+Correct answer
+type
+ 
+
+Choose the command that displays the contents of a text file on the screen.
+*
+0/5
+show
+ 
+less
+text
+showtext
+content
+Correct answer
+less
+ 
+Choose the wildcard that matches any single character.
+*
+0/5
+*
+ 
+#
+~
+!
+?
+Correct answer
+?
+ 
+Choose the correct version of the cp command to copy the contents of "file1" into a new file named "file2".
+*
+0/5
+cp file1
+ 
+cp file2
+cp file2 file1
+cp file1 file2
+cp file1/ file2/
+cp file2/ file1/
+Correct answer
+cp file1 file2
+ 
+Type in the cp command with the proper option to copy the directory "dir1" to "dir2".
+*
+0/5
+www
+ 
+Correct answers
+cp -r dir1 dir2
+cp -r dir1/ dir2/
+cp --recursive dir1 dir2
+cp --recursive dir1/ dir2/
+cp dir1 -r dir2
+cp dir1/ -r dir2/
+cp dir1 --recursive dir2
+cp dir1/ --recursive dir2/
+cp dir1 dir2 --r
+cp dir1/ dir2/ -r
+cp dir1 dir2 --recursive
+cp dir1/ dir2/ --recursive
+cp -r ./dir1 ./dir2
+cp -r ./dir1/ ./dir2/
+cp --recursive ./dir1 ./dir2
+cp --recursive ./dir1/ ./dir2/
+ 
+Type in the command to move all the files whose names start with "ABC" and end with any number of characters to the directory "dir".
+*
+0/5
+www
+ 
+Correct answers
+mv ABC* dir
+mv ABC* dir/
+mv ABC* ./dir
+ 
+
+Type in the command to move all files starting with either a, b, or c to the directory "dir".
+*
+0/5
+www
+ 
+Correct answers
+mv [abc]* dir
+mv [abc]* dir/
+mv [abc]* ./dir
+mv [abc]* ./dir/
+mv [a,b,c]* dir/
+mv [a,b,c]* ./dir
+mv [a,b,c]* dir
+ 
+
+Type in the command to move all files ending in an uppercase letter to directory "dir".
+*
+0/5
+www
+ 
+Correct answers
+mv *[[:upper:]] dir
+mv *[[:upper:]] dir/
+mv *[[:upper:]] ./dir
+mv *[[:upper:]] ./dir/
+ 
+
+Type in the command to remove the file "test111" by prompting the user for confirmation.
+*
+0/5
+www
+ 
+Correct answers
+rm -i test111
+rm test111 -i
+rm --interactive test111
+rm test111 --interactive
+rm -i ./test111
+rm ./test111 -i
+rm --interactive ./test111
+rm ./test111 --interactive
+ 
+Choose the correct command to create a symbolic link to file named "origin".
+*
+0/5
+link -symbol origin link_name
+ 
+ln -symbol origin link_name
+ln -s origin link_name
+ln origin link_name
+ln link_name origin
+ln -s link_name origin
+Correct answer
+ln -s origin link_name
+ 
+
+Type in the full command to create an alias named "ap" for the "apropos" command.
+*
+0/5
+www
+ 
+Correct answers
+alias ap=apropos
+alias ap='apropos'
+ 
+
+Choose the command that redirects the output of the "ls /usr" to a file named "output".
+*
+0/5
+ls > output
+ 
+ls < output
+ls output > /usr
+ls /usr > output
+ls > /usr > output
+Correct answer
+ls /usr > output
+ 
+
+Choose the command that redirects the stdin to the "inp.txt" file using the "cat" command.
+*
+0/5
+ls stdin > inp.txt
+ 
+cat stdin > inp.txt
+> inp.txt
+cat inp.txt > inp.txt
+cat > inp.txt
+> cat inp.txt
+Correct answer
+cat > inp.txt
+ 
+ 
+Choose the correct command that searches for the "hello" in the output of the "ls /usr/bin".
+*
+0/5
+find hello
+ 
+grep hello
+ls /usr/bin > grep
+ls /usr/bin | grep
+ls grep | /usr/bin
+ls /usr/bin | hello
+ls /usr/bin | hello grep
+ls /usr/bin | grep hello
+grep hello > ls /usr/bin
+Correct answer
+ls /usr/bin | grep hello
+ 
+
+Choose the command that outputs the error response of the "ls nofile" command to the file "err.txt".
+0/5
+ls err.txt > nofile
+ 
+ls nofile > err.txt
+ls nofile 1> err.txt
+ls err.txt 1> nofile
+ls nofile 2> err.txt
+ls err.txt 2> nofile
+ls nofile >2 err.txt
+ls err.txt >2 nofile
+Correct answer
+ls nofile 2> err.txt
+ 
+
+Choose the command that prints the last 7 lines of the "hello.txt" file.
+*
+0/5
+last 7 hello.txt
+ 
+lines 7 hello.txt
+wc -l 7 hello.txt
+head hello.txt
+tail hello.txt
+tail -7 hello.txt
+head -7 hello.txt
+tail -n hello
+tail -n 7 hello.txt
+head -n 7 hello.txt
+Correct answer
+tail -n 7 hello.txt

@@ -1,0 +1,210 @@
+Assembly Language for x86Processors, Chapter 3. Beginning x64 Assembly Programming, Chapter 5-9
+Total points10/100
+Welcome, students! This is a self-check test specially designed to evaluate your skills and knowledge. Please avoid using any external resources while taking the test, as it is aimed at assessing your current capabilities and identifying areas for improvement. Let's take this opportunity to enhance your expertise!
+The respondent's email (erik2002vardanyan7777@gmail.com) was recorded on submission of this form.
+Նշել յուրաքանչյուր սահմանմանը առավել համապատասխան հասկացությունը․ *
+string literal
+operand
+directive
+reserved word
+identifier
+code label
+Score
+Ինստրուկցիայի համար մուտքային արժեք
+0/2
+ 
+Մեկ կամ զույգ չակերտներով պարփակված սիմվոլների հաջորդականություն
+0/2
+ 
+Ծրագրավորողի կողմից որևէ փոփոխականի, պրոցեդուրայի, constant-ի կամ label-ի տրվող անվանում
+0/2
+ 
+Ասեմբլեր լեզվի կողմից սահմանված հատուկ նշանակությամբ բառ
+0/2
+ 
+Reserved word, որը հուշում է assembler-ին՝ ինչպես կառուցել ծրագիրը
+1/1
+ 
+Identifier, որը jumping և looping ինստրուկցիաների համար ծառայում է որպես թռիչքային կետ
+0/2
+ 
+Ինստրուկցիայի համար մուտքային արժեք
+Մեկ կամ զույգ չակերտներով պարփակված սիմվոլների հաջորդականություն
+Ծրագրավորողի կողմից որևէ փոփոխականի, պրոցեդուրայի, constant-ի կամ label-ի տրվող անվանում
+Ասեմբլեր լեզվի կողմից սահմանված հատուկ նշանակությամբ բառ
+Reserved word, որը հուշում է assembler-ին՝ ինչպես կառուցել ծրագիրը
+Identifier, որը jumping և looping ինստրուկցիաների համար ծառայում է որպես թռիչքային կետ
+Correct answers
+string literal
+operand
+directive
+reserved word
+identifier
+code label
+Ինստրուկցիայի համար մուտքային արժեք
+Մեկ կամ զույգ չակերտներով պարփակված սիմվոլների հաջորդականություն
+Ծրագրավորողի կողմից որևէ փոփոխականի, պրոցեդուրայի, constant-ի կամ label-ի տրվող անվանում
+Ասեմբլեր լեզվի կողմից սահմանված հատուկ նշանակությամբ բառ
+Identifier, որը jumping և looping ինստրուկցիաների համար ծառայում է որպես թռիչքային կետ
+Ինստրուկցիայի համար մուտքային արժեք
+Մեկ կամ զույգ չակերտներով պարփակված սիմվոլների հաջորդականություն
+Ծրագրավորողի կողմից որևէ փոփոխականի, պրոցեդուրայի, constant-ի կամ label-ի տրվող անվանում
+Ասեմբլեր լեզվի կողմից սահմանված հատուկ նշանակությամբ բառ
+Identifier, որը jumping և looping ինստրուկցիաների համար ծառայում է որպես թռիչքային կետ
+ 
+Նշվածներից ո՞րը չի կարող լինել identifier-ի անվանում MASM ասեմբլերական լեզվում․ *
+0/8
+?Atlas4
+ 
+_@Count
+Loop64
+inc
+Correct answer
+inc
+ 
+Նշեք flag-ների հիմնական տեսակները․ *
+0/6
+system flags
+ 
+control flag
+general purpose flags
+floating-point flags
+state flags
+memory flags
+reserve flags
+Correct answer
+system flags
+control flag
+state flags
+reserve flags
+ 
+Ֆայլը, որը ներառում է ծրագրի source code-ը, տողերի համարակալումը, ինստրուկցիաների հասցեները, մեքենայական կոդերն ու symbol table-ը, անվանում են․ *
+0/6
+object file
+ 
+source file
+executable file
+listing file
+Correct answer
+listing file
+Յուրաքանչյուր տվյալի տիպի համար (data directive) նշել հիշողության չափը բայթերով․ *
+8
+4
+2
+10
+1
+Score
+DD
+0/1
+ 
+DW
+0/1
+ 
+DB
+0/1
+ 
+DQ
+1/1
+ 
+DT
+0/1
+ 
+DD
+DW
+DB
+DQ
+DT
+Correct answers
+8
+4
+2
+10
+1
+DD
+DW
+DB
+DT
+DD
+DW
+DB
+DT
+ 
+Ո՞ր պնդումն է ճիշտ․ *
+8/8
+unpacked BCD-ի ֆորմատի պարագայում՝ տասական համակարգի յուրաքանչյուր թվանշան արտահայտված է երկուական համակարգով 8 բիթում
+ 
+packed BCD-ի ֆորմատի պարագայում՝ տասական համակարգի 2 թվանշաններ արտահայտված են երկուական համակարգով 16 բիթում
+ 
+Նշվածներից ո՞րը ռեգիստրի տեսակ չէ․ *
+0/6
+segment register
+ 
+general purpose register
+control register
+section register
+Correct answer
+section register
+ 
+Ո՞ր պնդումն է սխալ․ *
+0/10
+cmp ինստրուկցիայի օպերանդներից մեկը կարող է լինել memory operand, մյուսը՝ immediate value
+ 
+ja ինստրուկցիան կատարվում է, եթե cmp-ի օպերանդների unsigned մոտեցմամբ համեմատման արյունքում՝ առաջին օպերանդը մեծ է երկրորդից
+cmp ինստրուկցիայի օպերանդները կարող են ունենալ հիշողության տարբեր չափեր
+jl ինստրուկցիան կատարվում է, եթե cmp-ի օպերանդների signed մոտեցմամբ համեմատման արյունքում` առաջին օպերանդը փոքր է երկրորդից
+unsigned ամբողջ թվերի բազմապատկամ համար կարող է օգտագործվել mul ինստրուկցիան, signed թվերի համար՝ imul ինստրուկցիան
+Correct answer
+cmp ինստրուկցիայի օպերանդները կարող են ունենալ հիշողության տարբեր չափեր
+ 
+Ինչպե՞ս է բացվում lea մնեմոնիկը․ *
+0/6
+load
+ 
+load effective address
+load extended address
+load equal address
+Correct answer
+load effective address
+ 
+Ի՞նչ տեղի կունենա հետևալ ինստրուկցիայի կատարման արդյունքում.
+lea rax, [num]
+*
+0/10
+num-ի արժեքը կպահվի rax ռեգիստրում
+ 
+num-ի հասցեն կպահվի rax ռեգիստրում
+rax ռեգիստրի արժեքը կպահվի num-ի հասցեում
+ճիշտ տարբերակը բացակայում է
+Correct answer
+num-ի հասցեն կպահվի rax ռեգիստրում
+ 
+64-բիթ պլատֆորմում նշեք այն լրացուցիչ ռեգիստրի անվանումը, որը կօգտագործվի, եթե  ասեմբլերական կոդում կանչված printf ֆունկցիան ստանա երրորդ արգումենտ․ *
+0/8
+rsi
+ 
+edi
+rdx
+eax
+Correct answer
+rdx
+ 
+Ո՞ր ռեգիստրի մեջ է պահվում idiv ինստրուկցիայի կատարման արդյունքում ստացված մնացորդը․ *
+0/6
+rax
+ 
+rdi
+rdx
+rcx
+Correct answer
+rdx
+ 
+Ի՞նչ կտպի հետևյալ կոդի կատարման արդյունքում․ *
+0/10
+Captionless Image
+Little endian.
+Big endian.
+Ստույգ ասել հնարավոր չէ
+Little endian. Big endian.
+ 
+Correct answer
+Ստույգ ասել հնարավոր չէ

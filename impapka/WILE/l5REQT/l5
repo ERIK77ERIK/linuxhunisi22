@@ -1,0 +1,304 @@
+redirection(verahxum), expansion(yndlaynum), quoting(mejberelov) '' "", keyboard tricks(stexnashari hnarqner)
+
+1.
+Redirection(verahxum)
+>  - redirection(verahxum, uxordum)
+
+input(mutq) --> ls --> output
+
+mecs masamb haramnnery vor menq ashxatacnum enq vorpes mutq stanum en stexnasharic mutqagrvacsy vorpes elq talis en ardyunqy tpum en ekranin
+
+es ameninchy kazmakerpelu hamar linux-y kazamkerpuma es input-y ev output-y ibrev ayl fayler, linuxum cankacacs ban hamarvuma fayl aysinqn cankacacs bani het vor menq ashxatum enq vorpes kanon inch vor imastov iranic nerkayacnuma fayl urisha te menq et fayli het inchpes enq ashxatum, ajsinqn menq karox enq fayly bacel vorpes teqstayin fayl kardal kam fayly poxancel cpu-in vorpes csragir ashxati kam internetov ete inch vor ban enq uzum uxarkenq inch vor mi tex et inch vor banygrum enq hatuk fayli nersum vory avtomat kazmakerpvum e operacion hamakargi koxmic u grvacsy uxarkum e hamacanc 
+
+
+stexnasharov havaqvacsy vorpes mutq poxancvum e hramanin vory es pahin menq ashxatacnum enq et havaqvacsy michev poxancvely hramanin pahpanvum e arandsin faylum vorin anvanum en stdin(standard input) vory kbacenq ibrev standard input
+
+csragri, hramani ashxatanqi ardyunqy uxordvum e avtomat standard kerpov depi output fayl vorin anvanum enq stdout(standard output), ayn vor duq tesnum eq orinak ls -i ashxatanqi ardyunqy da irakanum stdout fayli parnakutyun e tpvum ekranin,
+
+aysinqn pastaci ls-y ekranin voch mi ban chi tpum ayl shell-y ls -i ardyunqy vory grvum e stdout fayli mej et stdout fayli parnakutyuny uxordum e depi ekran
+
+hima es stdin u stdout fayleri het pastaci menq karox enq terminali mijocov ashxatenq aysinqn menq karox enq haxordenq terminalin hetevyaly vor ete ogtagorcsoxy havaqum e orinak 'ls ~ > f.txt' aysinqn poxancum e shell in apa shelly tesnelov es hatuk simvoly > uxxordman es redirection(verauuxordum)-y (>) shell-in shell-in haxordum e ayn vor ete 'ls ~' -i ardyunqy petq e senc te nenc gna stdout fayli nersum grvi vor du(shell -y aysinqn) petq e uxordes depi ekran aysinqn qo mot gres vorpeszi ogtagorcsoxy tesni
+aysinqn ls csragiry ashxatacrec ogtagorcsoxy et csragri ardyunqy uzum e tesnel ekranin apa ayspisi nshan > tesnelov voch te es stdout-i parnakutyuny uxordi depi ekran ayl es stdout -i parnakutyuny vori mej grvelu er ls -i ashxatanqi ardyunqy(output-y) uxordi mer tvacs anunov fayli mej aysinqn en inch vor menq tesnelu einq ekranin voch te cuyc tur ekranin ayl pahpanir save ara mer tvacs anunov faylum  orinak (ls ~ > f.txt)
+
+
+2.
+cankacacs operacion hamkarg taranjatum e ereq tesaki standard faylery
+stdin
+stdout
+stderr
+
+
+stdout - grvun en csragreri elqery
+
+stdin - cankacacs csragir vory stexnasharic mutq e spasum apa ayd stexnashari havaqvacs mutqy i skzbane grvum e stdin anunov fayli nersum heto et stdin-i parnakutyuny uxordvume hamaopatasxan csragir
+
+stderr - y parnakum e bolor ardyunqnery(output-ery) voronq irakanum chpetq e grveyn stdout-um aysinqn da csragri bnakanon ashxatanqi elq che ayl inch vor ban sxal texi unecav u et sxali masin haxordagrutyun, sxali masin haxordagrutyunny pahpanvuma stderr anunov faylum, et pahpanvacsy menq eli shelli mijocov tesnum enq ekranin erb ashxatum enq sovorakan csragreri het orinak nuyn ls -i orinakov
+ls blabla
+ls: cannot access 'blabla': No such file or directory
+sxali masin haxordagrutyuny pahpanvum e stderr fayli mej u stderr fayli parnakutyuny shelly uxordum e ekranin vorpeszi menq tesnenq te inch texi unecav
+
+
+orinak
+ls blabla > out.txt
+ls: cannot access 'blabla': No such file or directory
+
+elqy linum e erku tesaki 
+1bnakanon ashxatanqi elqy ev 
+2eror-i masin haxordagrutyan elqy 
+
+ays depqum sxali masin haxordagrutyuny uxordum e depi stderr anunov fayl isk shell-y stderr-i parnakutyuny default uxordum e ekran vori patcharov el menq et haxordagrutyuny tesnum enq 
+
+ev ays depqum tpvum e ekranin sxali masin haxordagrutyuny ev stexcsvum e out.txtanunov datark fayl
+
+bayc menq karox enq sxali masin haxordagrutyuny evs uxordenq inch vor faylum pahpanel u chtesnel ekranin
+dra hamar menq petq e ogtvenq tveric(faylayin descriptor-neric(nkaragrichneric))
+
+
+3.
+file desciptor(nkaragrich) -y da tiv e vory nerkayacnum e iranic homanish fayli anvany
+
+0 - stdin
+1 - stdout
+2 - stderr
+
+ls ./ blabla > output.txt - bnakanon ashxatanqi elqy uxordum e output.txt, isksxali masin haxordagrutyuny tpum e ekranin
+
+ls ./ blabla 2> output.txt - bnakanon ashxatanqi elqy tpum e ekranin, isk sxali masin haxordagrutyuny uxordum e output.txt
+
+ls ./ blabla &> output.txt - bnakanon ashxatanqi elqy ev sxali masin haxordagrutyuny uxordum e depi output.txt
+
+/dev/null - fayle vortex grvacs cankacacs informacia korum e, arhamarum e
+ls ./ blabla 2> /dev/null
+bnakanon ashxatanqi ardyunqy ktesnem ekranin isk sxali masin haxordagrutyan ardyunwy chem tesni ekranin vorovhetev uxordvel e depi /dev/null
+
+
+
+
+4.
+> - redirection(verahxum, uxordel), overwrite(veragrel) e anum aysinqn ete fayly chka stexcsum e isk ete ka meji parnakutyuny jnjum e vric grum e
+>> - append(kcel) e anum voch te overwrite(veragrel) aysinqn chi jnjum meji parnakutyuny uxaki avelacnuma, isk ete fayl chka stexcuma\
+
+
+5. 
+cat - concatenate(miacnel), fayli parnakutyuny artapatkerum e ekranin, aysinqn cankacacs fayl vor menq poxancenq cat-in fayly kuxodvi stdout anunov fayl, ete stdout-y chenq uxordum inch vor mi tex apa by default shell-y da cuyc kta ekranin
+
+cat output.txt > mekayl
+mekayl fayli parnakutyuny kini nuyn output.txt-i parnakutyuny
+
+cat file1 file2 file3 > mekayl2
+mekayl2 fayli nersum klinen file1 file2 file3 -i parnakutyunnery henc ays imastov el vor cat-y miacnum e mi qani fayler kcum dranq irar ev menq karox enq da uxordel inchvor fayli nersum, henc ayd imastov el anvanvum e concatenate(miacnel)
+
+
+ete uxaki grenq cat, aysinqn ete cat-y aranc argument menq ogtagorcsenq apa cat-y kkarda standard input-y aysinqn toxa kbaci vortex grvacs cankacacs ban kgna stdin fayl 
+
+cat
+hello academy students
+hello academy students
+
+sa enter taluc heto sa kgrvi stdin fayli nersum, stdin fayly kpoxancvi cat-in isk cat-y cankacacs ban stanalov uxordum e stdout fayli nersum vory shell-y by default tpum e ekranin
+aysinqn nuyn ban ktpvi
+
+a imanalov menq karox enq anenq 
+cat > from_user.txt
+anything 
+^C
+hima from_user.txt i mej klini anything
+
+
+6.
+pipeline(xoxovakashar)
+
+command1 | command2 - hraman1 -i elqy(aoutput-y) uxodi depi hraman erkusi mutq
+cankacacs ban vor poxancum enq command1-in vorpes input(mutq) command1-y ogtagorcsum e ir nersum inch vor mshakelu hamar u vorpes elq command1-y durs e talis et ardyunqy 
+
+aysinqn ete command1 -i texy patkeracnenq ls apa ls y stanum e vorpes input(mutq) vor fayli kam directoryiayi parnakutyunne cuyc talu vorpes output stdout faylum grum e te et directory-i parnakutyuny inch e
+
+piping,pipeline(xoxovakashar) - |
+mkdir 1 2 3
+ls 1 2 3 | sort | uniq | less
+
+
+7. 
+wc - hramani mijocov menq imanum enq qani toxe panakum qani bar ka et faylum ev qani bayt e parnakum et fayly
+wc file1
+2 5 25 file1
+
+
+8.
+grep - man e galis hamapatasxanabar inch vor mi teqst kam ayspes kochvacs pattern(orinak,nmush) inch vor fayleri anunnerum kam inch vor poxancavacs list(cucak)-i mej
+
+orinak grep hello * - sa asume current directory-um gtnvox cankacacs fayli mej man ari hello bary
+
+grep -in poxancavacs arajin bary da ayn barn e vory petq e man ga isk erkrord argumenty te vortex man ga, karox enq naev ereq ev aveli argumentner poxancel 2rd 3rd ev aveli argumentnery nuynpes cuc en talis te vortex man ga isk ete current directoryii mej ka papka mejy fayl ev menq uzum enq current directorium man ga apa ayd papka chi mtni ev chimanaga ayd papki meji fayli mej miarjamanak cuyc talov vor da directory e
+grep 5 *
+l5:5. 
+l5:2 5 25 file1
+grep: pordsarkum: Is a directory
+
+
+
+9.
+head(glux), tail(poch) - sa el teqstayin fayli parnakutyan inch vor fiqsvacs qanaki toxer kardalu hamar en
+
+head - kardum e fayli skzbi toxery 
+tail - kardum e fayli verji toxery
+
+head -n(number) 6 temp  - cuyc e talis temp fayli skzbi 6 toxery
+tail -n(number) 4 temp  - cuyc e talis temp fayli verji 4 toxery
+
+isk ete parametr cheq poxancum inqy cuyca talis 
+head temp  - temp fayli skzbi 10 toxy
+tail temp  - temp fayli verji 10 toxy
+
+
+10.
+.1.
+Expansion(yndlaynum)
+pathname expansion(uxu anvan yndlaynum)    - *
+tilda expansion(tildayi yndlaynum)         - ~
+
+.2.
+arithmetic expansion(tvabanakan yndlaynum) - $(( ))
+karox eq katarel tvabanakan gorcsoxutyunner
+
+.3.
+brace expansion(pakagcseri yndlaynum) - {}
+karox eq stexcsel toxer voronq parnakum en dsevavor pakagcseri nersum grvacs cankacacs ban
+
+mkdir folder{1,2,3}
+folder1 folder2 folder3
+
+mkdir dir{1..10}              (dir{a..z}, dir{A..Z})
+dir1 dir2 dir3 dir4 dir5 dir6 dir7 dir8 dir9 dir10
+
+mkdir {1..10}-{11..15}        ({2021..2023}-{01..12})
+1-11 1-12 1-13 1-14 1-15 2-11 2-12 2-13 2-14 2-15 ...
+
+.4.
+parametr expansion(parametri yndlaynum) - $...
+$-i nshani koxqy grvacs cankacacs ban ditarkvuma vorpes popoxakan 
+aysinqn $ghgh sa man kga goyutyun unecox mer environment(mijavayr)-um goyutyun unecox hatuk anunner voronq es anunov en sahmanvacs es $-n e ira dimacy drvacs nshanakum e et hatuk anvan mej parnakvox arjeqy cuyc tur
+ayl kerp sran(orinak $USER) anvanum enq environment variable(mijavayri popoxakan)
+
+$PATH -um grvum en gradaraneri kam inch vor standard input fayleri standard pathnameery(uxu anunnery)
+
+echo $USER
+ubuntu
+
+.5.
+command substitution(hramani poxarinum) - $()
+aysinqn sa expansion(yndlaynum) chi ayl $-i kirarutyunna
+aysinqn menq karox enq inch vor hramani output(elq)-y ogtagorcsenq voch te ibrev mutq ayl vorpes hramani yndlaynum
+
+$(ls)  - ete menq grenq $() u poxancenq iran hamapatasxanabar hramani anvanumy ays hramani($(ls)) katarman ardyunqy vorpes mekayl hraman mez kpoxanci
+$(ls)  = Desktop Documents Downloads ...
+ubuntu@ubuntu:~$ $(ls)
+Desktop: command not found
+
+ls -l $(which cp)
+-rwxr-xr-x 1 root root 141832 Հնվ  8 18:56 /usr/bin/cp
+
+
+
+11.
+echo - echo(ardsaganq)-n hraman e vory cankacacs poxancvacs ban nuyn dsev krknum e
+
+echo $((2**3))
+8
+
+echo hello_{a,b,c}
+hello_a hello_b hello_c
+
+
+
+12. 
+quoting(mejberum) - "", ''
+
+"" - sra mej gravacsy kyndunvi ibrev popoxakani arjeq
+'' - sra mej grvacs cankacacs ban chi ditarkvelu vorpes hatuk simvol
+tarberutyuny parz chi ????????
+
+
+traberutyuny parza
+
+$()  =  ``
+
+echo `cal`
+Մայիս 2024 Կր Եր Եր Չր Հն Ու Շբ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+
+echo $(cal)
+Մայիս 2024 Կր Եր Եր Չր Հն Ու Շբ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+
+
+echo '$(cal)'
+$(cal)
+
+
+echo "`cal`"
+     Մայիս 2024       
+Կր Եր Եր Չր Հն Ու Շբ  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30 31     
+
+
+13.
+keyboard tricks(stexnashari hnarqner) 
+
+TAB - bacum e amboxj bary
+history hramany cuyc e talis verji havaqvacs 1000 hramannery
+!2202 - karox eq hramani hamary grel bacakanchakan nshani koxqy ev ayd hamri tak gtnvox hramny kkatari
+!! - verji hramany krknum e, mi hat bacakanchakan nshany nshanakum e verji hraman ete uzum eq katarel taq erku hateq dnum(!!)
+
+terminali mej 
+alt + b  - bari araji tari vra dsax a gnum amen barov
+alt + f  - bari verji tari vra aj a gnum amen barov
+
+ctrl + k - kill(spanel), cut(ktrel) e anum cursori dirqic michev toxi verj exacsy, bayc inqy chi korum inqy mnacela ete menq uzenq iran eli ogtagorcsenq menq petq e iran yank anenq linuxeren asacs da pastna
+ctrl + y - pasta anum ktracsy, 
+
+ctrl + shift + c - copy
+ctrl + shift + v - past
+
+bayc ctrl+y -ov pasta anum miayn ctrl+k -ov ktracsy, isk ctrl+shift+v -ov pasta anum miayn ctrl+shift+c -ov copy aracsy
+
+
+
+
+
+
+
+
+vim (00:00) Ներածություն
+(01:01) Redirection
+(04:03) redirection
+(06:34) stdin, stdout
+(19:02) stderr
+(23:41) file descriptor
+(26:22) error redirection
+(30:15) error and output redirection
+(34:08) /dev/null
+(36:47) emptying/creating a file
+(39:43) appending to files
+(42:15) cat
+(47:54) pipe, piping
+(53:24) sort և uniq
+(56:04) wc
+(59:41) grep
+(1:02:52) head և tail
+(1:04:55) Expansions
+(1:05:31) Pathname expansion
+(1:06:24) Tilde expansion
+(1:07:11) Arithmetic expansion
+(1:09:11) Brace expansion
+(1:14:46) Parameter expansion
+(1:18:01) Command substitution
+(1:22:48) Quoting
+(1:27:25) Tab completion
+(1:28:58) history
+(1:31:20) Keyboard tricks
+
+
+

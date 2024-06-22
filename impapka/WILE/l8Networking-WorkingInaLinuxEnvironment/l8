@@ -1,0 +1,130 @@
+Network(canc), networking(cancayin kap)
+
+ping csragrov hnaravorutyun kunenaq stugeq cancum gtnvox inch vor server aktiv e aktiv che 
+
+ping-ic heto kpatmem arden ssh csragri masin vori npataky remout inch vor mi ayl hamakargchi vra shell baceln e u ashxatelyaysinqn duq hnaravorutyun kunenaq dser hamakargchic kpnel mek ayl hamakargchi u yndex hramanner katarel 
+
+
+router - router srqavorumy uxordum e hamapatasxanabar harcumnery kam patetnery hima es kpordsem es ameninchy hnaravorins parz ev hnaravorins karch nkaragrel te inch e katarvum 
+
+
+
+40 : 15
+
+ete inch vor hamakargchic ping harcum em uxarkum mek ayl hamakargchi himnakan npataky ayn e vor es imanam et hamakargichy aktiv e te che aysinqn miacvacse e ardyoq et hamakargichy internetin te che 
+
+aysinq ete es ditarkem es ping-y vorpes csragir 
+
+aysinqn terminalov bacem ashxatacnem es ping-y vorpes aydpisin csragir vorpes, hnaravorutyune inds talis cankacacs hamakargchi imanalov ira IP hascen, cankacacs hamakargchi uxarkem poqrik patetikner voronq kochvum en ICMP ECHO_REQUEST-ner
+
+aysinqn ICMP-in protocoli anvanman imastov isk ECHO_REQUEST et arden konret anun
+
+aysinqn ping-y poqrik patetik e uxarkum hamapatasxan hamakargchin u yndexic ete hamakargichy aktiv e u hamapatasxanabar es protocoly ajakcum e(mecsamasamb bolory ajakcum en) patasxan e uxarkelu inds ayspes asacs pong(ping pong)
+
+(41 : 35)
+???
+patkeracreq es uzum em ping anem facebook.com-y
+
+ubuntu@ubuntu:~/impapka/WILE/l8Networking-WorkingInaLinuxEnvironment$ ping facebook.com
+PING facebook.com (157.240.234.35) 56(84) bytes of data.
+64 bytes from edge-star-mini-shv-02-sof1.facebook.com (157.240.234.35): icmp_seq=1 ttl=53 time=35.6 ms
+64 bytes from edge-star-mini-shv-02-sof1.facebook.com (157.240.234.35): icmp_seq=2 ttl=53 time=55.2 ms
+64 bytes from edge-star-mini-shv-02-sof1.facebook.com (157.240.234.35): icmp_seq=3 ttl=53 time=58.9 ms
+64 bytes from edge-star-mini-shv-02-sof1.facebook.com (157.240.234.35): icmp_seq=4 ttl=53 time=202 ms
+64 bytes from edge-star-mini-shv-02-sof1.facebook.com (157.240.234.35): icmp_seq=5 ttl=53 time=73.8 ms
+
+
+icmp_seq=1  - aystex talsi e amen mi patetiky vor talis e facebook.com-in
+bnakanabar facebook.com-y es context-um chi ditarkvel henc es anunov ayl es anuni tak taqnvacs iarakan IP hascen e durs bervel 
+from edge-star-mini-shv-02-sof1.facebook.com (157.240.234.35):  - ay es tesqy uni IP hascen (157.240.234.35)
+
+
+hima mitqy vorna es ping hramani mijocov es karoxanum em et serverin hamapatasxanabar es hasceum gtnvox hamakargchin uxarkel harcum poqrik patetik u stanalov patasxan stex es csragiry nshum em vor 64 bytes stacelenq esinch hasceic, time-y inchqana tvel 53 milavarkyan(time=35.6 ms)
+
+
+inchqan iran miacvacs toxenq etqan et harcumy kgna 
+henc anjatum enq menq es csragiry yndhanur es ststisticana talis te inch texi unecav
+
+ubuntu@ubuntu:~/impapka/WILE/l8Networking-WorkingInaLinuxEnvironment$ ping facebook.com
+PING facebook.com (157.240.234.35) 56(84) bytes of data.
+64 bytes from edge-star-mini-shv-02-sof1.facebook.com (157.240.234.35): icmp_seq=1 ttl=53 time=112 ms
+64 bytes from edge-star-mini-shv-02-sof1.facebook.com (157.240.234.35): icmp_seq=2 ttl=53 time=2106 ms
+64 bytes from edge-star-mini-shv-02-sof1.facebook.com (157.240.234.35): icmp_seq=3 ttl=53 time=1228 ms
+64 bytes from edge-star-mini-shv-02-sof1.facebook.com (157.240.234.35): icmp_seq=4 ttl=53 time=204 ms
+64 bytes from edge-star-mini-shv-02-sof1.facebook.com (157.240.234.35): icmp_seq=5 ttl=53 time=1060 ms
+64 bytes from edge-star-mini-shv-02-sof1.facebook.com (157.240.234.35): icmp_seq=6 ttl=53 time=93.8 ms
+^C
+--- facebook.com ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5045ms
+rtt min/avg/max/mdev = 93.796/800.595/2105.501/739.569 ms, pipe 3
+
+6 packets transmitted   - aysinqn 6 patet hasscrecuxarki
+6 received   - 6 patet stacav
+0% packet loss   -  aysinqn patetneri korust chi exel 
+rtt min/avg/max/mdev = 93.796/800.595/2105.501/739.569 ms  - u stex minimum mijin maximum tvery te inchqna tevel et procesy minumum esqan milivarkyan mijinum esqan maximum esqan ev ayln ev ayln  
+
+aysinqn et duq uzenaq inch vor serveri senc asacs vorpisutyuny stugeq apa ays ping-ov amenaharmar mijocn e stugelu hamar 
+
+
+
+
+111.
+traceroute(htagcsum, hetqi ertuxin)
+inch sarqavorumneri vrayova ancnum
+
+112.
+ssh(secure shell(apahov patyan))
+22 porti vra e ashxatum 
+
+ssh-i koxqy grum enq et hamakargchi ip hascen heto havaqel hamapatasxanabar paswordy 
+heto inch hraman stex grenq mer local hamakargchi vra grenq ls orinak u enter tanq es ls-y chi katarvelu mer hamakargchi vra ayl es ls tesqty poxancvelu et hamakargchin(um ip hascen grelenq) ytex ls-y ashxatelu e ls-i ardyunqy vory stex cucadrvelu er ibrev ardyunqy het patasxanov uxarkvelu e mer hamakargich u menq mer ekranin tesnelu enq te inch tesq uni ls-i output-y et hamakargchi vra
+
+aysinqn ssh-i mijocov menq ibrev ayl hamakargchi vra terminalov asshxatum enq voch mi ayl tarberutyun uxaki petq e hisheq vor et katarvum e interneti mijocov  u stex vorpes lracucich informacia mekel petq e hisheq vor ssh-y ashxatum e 22 port-i vra 22 hamari porti vra 
+
+50 : 40
+.....
+
+
+
+ctrl + r  - reverse search, terminali vra havaqacs hishoxutyan vra e gnum
+ctrl + d  - durs e galis urish hasceic
+
+
+
+
+scp 138.201.20.223:/home:vardanator/forexample .
+
+
+
+
+//////////////////////////////////////////////////////////////
+terminali vra
+
+MAYISI 8    DAS 9 DASAXOSUTYUN
+ALT+F   - bary ach mi-mi bar
+ALT+B   - bary dsax mi-mi bar
+CTRL+F  - tary ach mi-mi tar
+CTRL+B  - tary dsax mi-mi tar
+
+ALT+E   - toxi verj
+ALT+A   - toxi skizb
+
+CTRL+T  - tary dsaxi tari het texerov poxuma
+ALT+T   - bary dsaxi bari het texerov poxuma
+
+CTRL+U  - cursoric dsax sax toxy jnjuma
+CTRL+K  - cursoric aj sax toxy jnjuma
+CTRL+Y  - PASTA-a anum jnjacsy
+
+ALT+U   -  cursori texic depi aj amoxj bary dardsnuma mecsatar cusory tanelov bari verj
+ALT+L   - cursori texic depi aj amoxj bary dardsnuma poqratar cusory tanelov bari verj
+ALT+C   - cursori texic depi aj amoxj bary dardsnuma poqratar isk araji tary mecsatar cusory tanelov bari verj
+
+
+
+
+
+
+.bashrc -i mej    .profile
+export PATH="$PATH:/home/ubuntu/impapka/WILE"
+

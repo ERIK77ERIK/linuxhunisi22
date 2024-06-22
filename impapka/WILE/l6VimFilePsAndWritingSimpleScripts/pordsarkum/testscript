@@ -1,0 +1,6 @@
+echo hello
+echo barev
+$((3+4))
+echo hajox
+
+echo "sdfdsf $var"

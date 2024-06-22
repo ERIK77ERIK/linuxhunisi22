@@ -1,0 +1,18 @@
+@channel Հարգելի ուսանողներ
+Ուղարկում եմ նաև հավելյալ նյութեր, ուսումնասիրության համար։
+Ծանոթանալ և քննարկել հետևյալ հղումների պարունակությունը.
+Ֆլագների հետ կապված հղումներ
+Բոլոր ֆլագների անունները և նրանց կրճատ նկարագրությունը
+http://www.c-jump.com/CIS77/ASM/Instructions/I77_0070_eflags_bits.htm
+Ֆլագների գտնվելու վայրերը EFLAGS Ռեգիստրի մեջ և նրանց տեսակները
+http://www.c-jump.com/CIS77/ASM/Instructions/I77_0050_eflags.htm
+Linux ընտանիքի օպերացիոն համակարգերում տրամադրվող բոլոր system call-երի և system call-ին անհրաժեշտ արգումենտները փոխանցելու համարա նախատեսված ռեգիստրների աղյուսակը,
+https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
+MacOS-ի կողմից տրամադրվող բոլոր system call-երի ցանկը և անհրաժեշտ արգումենտների փոխանցման կարգը MacOS-ի օգտագործման դեպքում
+System call-երի ցանկը
+https://opensource.apple.com/source/xnu/xnu-1504.3.12/bsd/kern/syscalls.master
+Անհրաժեշտ ռեգիստրների օգտագործման կարգը
+https://dustin.schultz.io/mac-os-x-64-bit-assembly-system-calls.html
+dustin.schultz.iodustin.schultz.io
+Mac OS X 64 bit Assembly System Calls | Dustin Schultz — Pluralsight Author & Principal Software Engineer
+Mac OS X 64 bit Assembly System Calls

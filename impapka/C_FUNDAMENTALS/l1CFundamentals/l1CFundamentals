@@ -1,0 +1,252 @@
+1.
+inch e mez petq galu c-ov csragrer grelu hamar
+
+text editor(texstayin xmbagir)  - vim
+
+compiler(kompilyator)  - gorcsiq vorov teqsty kveracsenq executable csragri inchpes hishum eq kam inchpes arden texyak eq c-n vorpes aydpisin hamarvum e compilacvox lezu
+aysinqn menq csragravorman lezunery taranjatum enq irenc compilaciayi kam irenc katarman tesaki  (kompilacvox iterpretacvox ev hibrid), c-in compilacvox lezuneri sharqin e patkanum 
+
+
+compilacvox lezu aselov nkati unenq 
+source file-y vory parnakum e c-ov grvacs csragir --> compiler(es csragiry teqstayin file-y kardalov vercsanelov generacnum e --> executable file
+
+bolor lezuneri source kod file-ery unen hamapatasxan yndlaynum, lezvin bnorosh bnakanabar
+c++-um .cpp
+java-um .java
+c-um .c
+
+
+vim l1.c
+
+#include <stdio.h>
+
+int main()
+{
+	printf("Hello, world!");
+	return 0;
+}
+
+
+
+2.
+hima anhrajesht e ays l1.c csragric stanal hamapatasxan executable file u menq dra hamar kogtagrorcsenq compiler(kompilator)
+
+kan bazmatic comiler-ner, haytni compilerneric en c-i depqum
+compiler - 
+gcc(GNU  C Compiler, GNU compiler Collection), cc
+g++-y c++-i compilatorneric 
+gj, gjava
+
+
+sudo apt install g++
+gcc install aneluc cc-n el hetna install anum bayc g++-n u c++-y che
+
+gcc
+gcc: fatal error: no input files
+compilation terminated.
+
+
+
+3.
+gcc-in handisanalov compiler bnkanabar spasum e testayin file-y vori mej grvacs e c levin hamapatasxanox hamapatasxan source kody 
+u da menq poxancum enq ayspes gcc l1.c
+cankacacs hajoxutyun depqum ekranin voch mi ban cheq tesni aysinqn ete inch vor xndir lini ekranin ktpvi haxordagrutyun ete xndir chka ekranin voch mi haxordagrutyun chka
+
+gcc l1.c  - output talis e a.out
+./a.out
+bayc
+gcc l1.c -o my_program   - output talis barev
+./my_program
+
+sa ashxatacnelu hamar es asum em vor es gtnvum em current directory-um ev uzum em ashxatacnel ays a.out tarorinak anunov executable file-y
+
+
+
+4.
+.1.
+ete duq uzum eq valid(vaver) chisht chsgrit csragir grel c-ov anpayman petq e unenal main funkcian ev petq e cankali e yst standard-i vor main funkcian veradardsni int
+
+qani vor main funkcian irenic nerkayacnum e arjin kanchvox funkcian mutqi kety(entry point-y) csragri katarman arajin kety sranic hetevum e vor menq cankacacs gorcsoxutyun vor uzum enq katari mer csragiry ayn petq e texadrvi main-um kam sksel main-ic kam main-ic en dranq sksvum 
+ 
+ 
+.2.
+#include <stdio.h>
+
+int main() //entry point
+{
+	printf("Hello, world!\n");
+}
+
+hnaravor che grel funkcia vor veradardsnum e inch vor ban u chveradardsnel inch vor ban
+sa bacarik depq e erb menq haytararum enq main funkcian vory verdardsnum e int  u bac enq toxum return 0 -n kam return inch vor mi tiv et return 0-n mer poxaren texadrum e compilatory aysinqn compilatory yndunum ev haskanum e vor main functian petq e veradardsni mi tiv ete menq voch mi ban chenq drel veradardsnelu e 0 vorohetev 0-n paymanavorvacsutyan hamadsayn csragri ashxatanqi tesankyunic hamarvum e hajoxutyan kody aysinqn ete csragiry avartvec michev bolor gorcsoxutyunnery katarum e ev verjanum e u csragiry veradardsnum e 0 operacion hamakargin  operacion hmakargy hamarelu e vor et csragiry hajoxutyamb katarvec aysinqn csragri katarman yntacqum voch mi xndir texi chunecav 
+
+isk xndirner karox en texi unenal u xndirner texi unenaluc hnaravorutyun unenq menq naev grel voch te return 0 ayl return orinak 4 kam return -1, et veradardsvox tivy operacion hamakargi koxmic ditarkvelu e ibrev voch 0-akan veradardsi ardyunq aysinqn 0 chi u os-y hamarelu e vor csragiry avartvec voch barehajox havanabar inch vor ban en chi u ogtagorcsoxin karox e dra masin haytnel orinak vor csragiry avartvec voch 0-akan ardyunqov 
+
+amen depqum sa aynqan qich kirareli hatvacs e vor main-ic veradardsvox arjeqy inch vor imastov erbeve ogtagorcsenq dra hamar misht by default menq grum enq return 0 main funkciayi verjum aysinqn funkciayi katarumic heto menq asum enq vor hajoxutyamb veradardsrinq
+isk ete patahakan sa morananq miayn es depqum iharke miayn main funkciayi depqum compilatory mer poxaren da kavelacni inchpes ev tesanq vor aysinqn chdracsneri depqum csragiry normal compilacvum er ashxatum er 
+
+
+
+5.
+ubuntu@ubuntu:~/impapka/C_FUNDAMENTALS/l1CFundamentals$ chmod u+x l1.c
+ubuntu@ubuntu:~/impapka/C_FUNDAMENTALS/l1CFundamentals$ ls -l
+total 8
+-rwxrw-r-- 1 ubuntu ubuntu  147 Ապր  5 14:48 l1.c
+-rw-rw-r-- 1 ubuntu ubuntu 2724 Ապր  5 14:48 l1CFundamentals
+ubuntu@ubuntu:~/impapka/C_FUNDAMENTALS/l1CFundamentals$ ./l1.c
+./l1.c: line 3: /bin: Is a directory
+./l1.c: line 4: my: command not found
+./l1.c: line 5: */: No such file or directory
+./l1.c: line 7: syntax error near unexpected token `('
+./l1.c: line 7: `int main() // entry point (mutqi ket)'
+
+
+
+6.
+<stdio.h>-y kochvuma header file, aystex irakanum taqnvacsa es header fileeri kirarutyuny
+
+
+int main() // entry point (mutqi ket)
+{
+        printf("Hello, world!\n");
+        return 0;
+}
+
+cc l1.c
+l1.c: In function ‘main’:
+l1.c:9:9: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+    9 |         printf("Hello, world!\n");
+      |         ^~~~~~
+l1.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+  +++ |+#include <stdio.h>
+    1 | // #include <stdio.h>
+l1.c:9:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+    9 |         printf("Hello, world!\n");
+      |         ^~~~~~
+l1.c:9:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+
+aysinqn compilatory arden haskanuma vor printf() gradaranayin funktian enq uzum ogtagorcsel bays sa linuma arden voch te ogtagorcsum ayl haytararutyun 
+ete cankutyun ka printf()-y kanchelu petq e include anel <stdio.h> gradaranayin fayly
+aysinqn ete menq uzum enq ogtagorcsel inch vor funkcia vory menq chenq grel u et funkcian inch vor baxti berumov gtnvum e irakanacavacs e hamapatasxan gradaranum apa menq petq e mer csragrum nerarenq et irakanacvacs funkciayi haytararutyuny vorpeszi compilatory haskana vor menq ogtagorcselenq printf() funkcian voch te goyutyun chunecox ayl c-i standard gradaranum goyutyun unecox hmapatasxan funkcian 
+
+#inlude(nerarum)  -  preprocessor directive(naxaprocessori hrahang)
+.h(header)  - header faylery yndunvacs e avartel inch vor extension(erkaradsgum)-ov u et extension-y lini .h 
+
+
+7.
+preprocessing(naxmshakum) - preprocessing-i pulum bolor source file-ery poxancvum en hatuk es gorcsiqin vorin anvanum enq preprocessor(naxamshakox) ev naxnakan mshakvum en source faylery michev compilatorin poxancvely
+isk naxnakan mshakvel source faylery nshanakum e compilatorin poxancvum e hamapatasxanabar et kodi popoxvacs tarberaky
+kodi popoxvacs tarberaky stex klini ayn vor es toxi poxaren #include <stdio.h> irakanum texadrvelu e amboxjakan fayli parnakutyuny aysinqn <stdio.h> faylum gtnvox parnakutyuny texadrvelu es mer source fayli mej, aysinqn mer source file-y irakanum aveli mecsanalu e michev compilator-in poxancvely 
+
+source file --> compiler --> exe
+compilatory compilacia aneluc mer source file verjum ayl gorcsiqi mijocov vorin anvanum en linker kapakcum e hamapatasxanabar standard gradarany mery csragri het u kapakcelu ardyunqum stanum enq menq hamapatasxan verjnakanacvacs executable file vory ete anun chenq tvel anuny klini a.out
+
+
+???
+es procesy linkingi preprocesingi menq bnakanabar hetagayum eli ditarkelu enq
+???
+
+
+8.
+cankacacs component textum cankacacs texti baxadrich compilatori koxmic ditarkvum e vorpes token(nshan)
+u ete menq dnum enq erku storaketneri mej compilatorin asum enq vor et amboxjna("Hello world\n") iranic nerkayacnum token 
+
+#include <stdio.h>
+
+int main() // entry point (mutqi ket)
+{
+        printf('Hello, world!\n');
+        return 0;
+}
+
+gcc l1.c
+./a.out
+compile error
+
+
+
+9.
+printf - f tary formatted(dsevachapvacs) bari arajin tarn e, nshanakum e tpir formatavorvacs
+et formatting-i het kapvacs karox em asel vor orinak stex karoxem tpel inchvor popoxakani arjeq petq e ogtagorcsem %d aysinqn decimal arjeq em uzum tpel u vorpes erkrod parametr printf-in poxancem te votex e pahpanvacs ayd arjeqy aysinq popoxakany( printf("%d\n", x); 
+
+aysinqn aysenc formataforman ayspisi motecumneri patcharoc es funkciayi anuny print ch iayl printf-a aysiqn print formatted formatavorvacs tpel
+
+#include <stdio.h>
+
+int main() // entry point (mutqi ket)
+{
+        int x = 12;
+        printf("%d \n", x);
+
+        return 0;
+}
+
+gcc l1.c
+./a.out
+12
+
+
+
+
+10.
+stex menq poxecinq bacatnery et probely entery taby bolory kochvum en whitespace(spitak taratsutyun), space(bacat), bacat aveli shat probelin en asum
+
+csragri katarman tesankyunic voch mi tarberutyun chka esi compilatory senc te nenc arandsnacnelu e es mer gracsy yst bashanichneri bashanichner karox en linel probely orinak int-i u main-i aranqi probely ete chlini compilatory chi haskana vor stex gnum e int arandsin keywordi masin ev main funkciayi masin
+sranq () {} ; evs hamarvum en bashanichner
+
+#inlcude <stdio.h> // preprocessor directive,
+
+int main()
+{
+int x = 12;
+printf("%d\n", x);
+}
+
+kam
+#include <stdio.h> //preprocessor directive
+int main(){int x=12;printf("%d\n", x);}
+
+sra npataky kody dardsneln e  ynterneli aysinqn pahpanel ayspes asacs coding style(kodavorman voch)-y
+
+
+
+11.
+.1.
+stex naev erku barov avelacnem \n-i nmanatip escape sequence(paxusti hajordakanutyun)-nery voronq hnaravorutyun en talis ayl simvol nerkayacnel 
+orinak stex ete menq \n-y vorpes erku simvol enq tesnum irakanum inqy compilyatori koxmic haskacvelu e vorpes mi simvol yndameny u et mi simvoly nor toxi ancaman simvoln e aysinqn new liney(\n) 
+
+
+.2.
+nmanatip erku simvolov artahaytvox eli slesh(\)-ov sksvox ka orinak tab-y ete es grem \t apa es \t-i poxaren output aneluc teqstum klini tab
+
+#incude <stdio.h> // preprocessor derective
+
+int main()
+{
+	int x = 12;
+	printf("\tsample\tanother \n", x);
+}
+
+gcc l1.c
+warning x
+./a.out
+	sample	another 
+
+
+.3.
+\a  -zngoc hanox nshan e 
+#incude <stdio.h> // preprocessor derective
+
+int main()
+{
+        printf("\t\asample\tanother \n");
+}
+
+gcc l1.c
+./a.out
+	sample 	another
+
+
+.4.
+kan simvolner voronq vor naxapes hatkacvacs en vorosh gorcseri hamar orinak #-y
+#   - cankacacs ban vor sksvum e #-ov da preprocesori directive(hrahang) e ete hrahangy chisht e grvacs 

@@ -1,0 +1,179 @@
+Atlas 4/Wave 9 - Morning Group - Test1(Andrew S. Tanenbaum - Chapter 2, 2.1 - 2.2)
+Total points100/100
+ 
+Welcome, students! This is a self-check test specially designed to evaluate your skills and knowledge. Please avoid using any external resources while taking the test, as it is aimed at assessing your current capabilities and identifying areas for improvement. Let's take this opportunity to enhance your expertise!
+Հարգելի ուսանողներ, թեստը ինքնաստուգման համար է և ոչնչի վրա չի ազդում:
+Full name *
+erik2002vardanyan7777@gmail.com
+ 
+What does the abbreviation CPU stand for?/Ի՞նչպես է բացվում CPU հապավումը։
+*
+5/5
+Central Power Unit
+Central Processing Unit
+ 
+Central Protocol Unit
+Control Power Unit
+Copy Paste Unit
+ 
+What does the abbreviation ALU stand for?/Ի՞նչպես է բացվում ALU հապավումը։
+*
+5/5
+Arithmetic Logic Unit
+ 
+Analytical Logic Unit
+Algorithmic Logic Unit
+Adaptive Logic Unit
+ 
+What are the main components of CPU? /Ո՞րոնք են CPU-ի հիմնական բաղադրիչները։ *
+5/5
+ALU(Arithmetic logical unit), Disk, CU(Control Unit), Bios
+ALU(Arithmetic logical unit), CU(Control Unit), Registers
+ 
+RAM, Bus, CU(Control Unit), ALU(Arithmetic Logical Unit), OS(Operating system)
+ALU(Arithmetic logical unit), CU(Control Unit), OS(Operating system)
+ 
+How many phases does it take to perform a single instruction in a computer system?/Քա՞նի փուլից է բաղկացած մի ինստրուկցիայի կատարումը համակարգում։
+*
+5/5
+4
+7
+ 
+2
+9
+ 
+During the execution of instructions, what does the Fetch phase involve?/Ինստրուկցիաների կատարման ընթացքում, ի՞նչ է ներառում Fetch փուլը։ *
+5/5
+Decoding the instruction. /Ինստրուկցիայի ապակոդավորումը
+Retrieving an instruction from memory. /Ինստրուկցիայի ստացումը հիշողությունից
+ 
+Executing arithmetic operations. /Հանրահաշվական գործողությունների իրագորգումը
+Storing the result. /Արդյունքի պահպանումը
+ 
+What is the order in which instructions are executed by the processor?/Պրոցեսորի կողմից ի՞նչ հերթականությամբ են կատարվում ինստրուկցիաները։  *
+1. Decode
+2. Result store
+3. Execute
+4. Repeat
+5. Fetch
+6. Addition of IP register
+7. Change of IR register
+8. Operand read
+10/10
+5, 8, 1, 6, 7, 3, 2
+5, 2, 6, 8, 3, 1, 4
+5, 1, 6, 8, 3, 2, 4
+ 
+5, 1, 6, 7, 8, 3, 2, 4
+There is no right answer. /Ճիշտ պատասխանը բացակայում է։
+ 
+What is the bit count in one byte?/Որքա՞ն է բիթերի քանակը մեկ բայթում։
+*
+5/5
+12
+64
+32
+8
+ 
+ 
+What is the role of the Instruction Register (IR) in a computer system?/Ո՞րն է IR(Instruction Register) դերը համակարգչային համակարգում։
+*
+5/5
+The Instruction Register (IR) holds the instruction currently being executed in a computer system. /պահում է ներկա պահին կատարվող ինստրուկցիան։
+ 
+The Instruction Register (IR) is only responsible for storing data, not instructions./պատասխանատու է միայն տվյալները պահելու համար(ոչ թե ինստրոկցիաների)։
+The Instruction Register (IR) is designed to hold multiple instructions simultaneously. /նախատեսված է միաժամանակ մի քանի ինստրուկցիաներ պահելու համար։
+ 
+What are the two fundamental byte arrangements in computer memory?/Որո՞նք են հիշողության մեջ բայթերի երկու հիմնական դասավորությունների տեսակները։
+*
+5/5
+Bytes in memory are always arranged randomly. /Բայթերը հիշողություն դասավորվում են պատահականության սկզբունքով։
+Left Endian and Right Endian
+Little Endian and Big Endian
+ 
+In memory, bytes are organized based on their alphabetical order. /Բայթերը հիշողության մեջ դասավորվում են ըստ այբբենական կարգի։
+ 
+Identify the buses responsible for connecting the CPU to RAM./Նշեք bus-երը, որոնք պատասխանատու են CPU-ն RAM-ին կապելու համար։
+*
+5/5
+Address Bus
+ 
+Central Bus
+Memory Bus
+Instruction Bus
+Control Bus
+ 
+Program Bus
+Data Bus
+ 
+ 
+How does CISC (Complex Instruction Set Computing) differ from RISC (Reduced Instruction Set Computing)?/Ի՞նչով է CISC-ը տարբերվում RISC-ից։ *
+5/5
+CISC has fewer instructions. /CISC-ը ավելի քիչ ինստրուկցիաներ ունի։
+RISC emphasizes a smaller, simpler instruction set. /RISC-ը հիմնված է ավելի փոքր, ավելի պարզ հրահանգների հավաքածուի վրա:
+ 
+CISC focuses on complex instruction sequences. /CISC կենտրոնանում է բարդ հրահանգների հաջորդականությունների վրա:
+ 
+RISC uses a larger number of complex instructions. /RISC-ն օգտագործում է ավելի մեծ թվով բարդ հրահանգներ:
+ 
+
+What is the role of the Control Unit(CU) in the CPU?/Ո՞րն է CU - ի դերը CPU - ում։
+*
+5/5
+To perform arithmetic calculations. /Իրականացնել հանրահաշվական գործողությունները։
+To fetch and decode instructions. /Բերել և ապակոդավորել ինստրուկցիաները։
+To store temporary data. /Պահպանել ժամանակավոր տվյալները։
+To manage input and output operations. /Կարգավորել input/output գործողությունները։
+ 
+ 
+What information does the Program Counter register (PC) store?/Ի՞նչ ինֆորմացիա է պահում PC ռեգիստրը։
+*
+5/5
+The Program Counter (PC) is designed to store multiple addresses simultaneously. /Նախատեսված է միաժամանակ մի քանի հասցեներ պահելու համար։
+The Program Counter (PC) is crucial as it points to the next instruction to be fetched for execution in a computer system./ Ցույց է տալիս հաջորդ ինստրուկցիան, որը պետք է կատարվի համակարգչային համակարգի կողմից։
+ 
+The Program Counter (PC) is only responsible for storing data, not instructions. /Պատասխանատու է միայն տվյալների պահպանման համար(ոչ թե ինստրուկցիաների)։
+ 
+What is the bit(binary digit) /Ի՞նչ է բիթը։ *
+5/5
+The basic unit of memory /Հիշողության հիմնական միավոր։
+ 
+Collection of 8 bytes /8 բայթերի հավաքածու։
+It is component of ALU /ALU-ի կոմպոնենտ։
+It is component of CPU /CPU-ի կոմպոնենտ։
+ 
+Each CPU has its own/Յուրաքանչյուր CPU ունի իր սեփական *
+5/5
+RAM, ALU, CU, registers
+Pipeline, Cache Level 1, registers, CU
+registers, ALU, CU, cores
+ 
+CPU has no hardware support. /CPU-ն չունի սարքային ապահովում
+ 
+Which is the unit of measurement provided by CPU for the execution of instructions./Ո՞րն է պրոցեսորի կողմից սահմանված չափման միավորը ինստրուկցիաների կատարման համար: *
+5/5
+MISD
+MIPS
+ 
+SIMD
+MB/second
+ 
+What are the components or sub-devices within a CPU?/Որո՞նք են պրոցեսորի ենթասարքերը:
+*
+5/5
+ALU
+ 
+CU
+ 
+Registers
+ 
+HDD
+ 
+What is the purpose of Cache Memory?/Որն է Cache Memory֊ի օգտագործման հիմնական նպատակը։
+*
+10/10
+Cache memory is only useful for storing data that is rarely accessed or utilized by the system./ Cache Memory֊ին օգտագործվում է միայն պահելու համար այն ինֆորմացիան, որը քիչ է օգտագործվում համակարգի կողմից։
+Cache memory is used to create hard copies of digital documents./Cache memory֊ն օգտագործվում է թվային փաստաթղթերի կոշտ պատճեններ ստեղծելու համար:/
+Cache memory is primarily designed to replace the role of main memory (RAM) in a computer./Cache memory֊ն հիմնականում նախատեսված է համակարգչում հիմնական հիշողության (RAM) դերը փոխարինելու համար:
+Cache memory is used to hold the most commonly used memory words inside or close to the CPU, in order to avoid (slow) accesses to main memory./ Cache memory֊ն օգտագործվում է առավել հաճախ օգտագործվող word֊ի չափով հիշողությունը CPU֊ի մեջ կամ մոտիկ պահելու համար՝ հիմնական հիշողության (դանդաղ) հասանելիությունից խուսափելու համար։
+ 

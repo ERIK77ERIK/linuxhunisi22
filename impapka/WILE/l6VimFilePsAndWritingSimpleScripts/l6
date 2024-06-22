@@ -1,0 +1,444 @@
+permisseons(tuyltvutyunner), vim((vi improved(vi-n barelavvel e)) text editor(textayin xmbagir))
+
+1.
+.1.
+ sudo apt install vim
+apt install -  apt install-y linux henc konkret ubuntu-um package(patet)-neri patetneri install anelu hamar e 
+
+
+vim-i keyboard tricks
+
+yy  - toxna copy anum, y(yank)
+p   - pasta anum
+u   - mi hat heta gnum, u(undo(hetarkel))
+e   - bari verji taric bar bar heta gnum aysinqn dsax
+w   - bari skzbi taric bar bar heta gnum aysinqn dsax
+b   - bari skzbi taric bar bar araja gnum aysinqn aj
+gg  - galisa fayli skizb
+G kam shift+g  - fayli verja gnum
+dd   - toxy jnjuma
+
+h  - mi hat dsaxa gnum
+j  - mi hat nerqeva gnum
+k  - mi hat vereva gnum
+l  - mi hat aja gnum
+
+o kam O - mangamic poxancume insert rejim ev nor tox e bacum anmijapes cursoric mi hat nerqev
+
+cc - toxy jnjuma ev mtnuma insert rejim, isk visual 3 rejimneric mer nshacsy jnjuma ev mtnuma insert rejim
+
+esc  -  het e galis command mode(hramani rejim)
+i    - mtnum e insert rejim
+v    - mtnum e visual rejim
+V kam shift+v   - mtnum e ayspes asacs visual line rejim ev baci da es cankacacs gorcsoxutyun ditarkelu em tox ar tox, ev ayntex vortex coursorn e ayd toxy avtomat nshvum e amboxjutyamb, hima stex menq karox enq vimin poxancel inch vor hraman voch te hramanayin rejimov ayl stexneri mijocov voroncic meky klini jnjel ays erku toxy jnjelu hamar sexmum en (d) tary 
+
+ctrl+v   - mtnum e ayspes asacs visual block rejim
+ystex sharjvume blok ar blok aysinqn vortex vor coursorn e aydtexic ete mi hat aj tanenq u mi hat nerqev knshvi et toxi ev nerqevi toxi hamapatasxan erku tarery
+
+
+
+
+
+
+.2.
+vim-y uni 3 ashxatanqayin rejim
+
+.2.1. command mode(hramanayin rejim) - sa ayn rejimn e vor duq karoxanum eq hraman tal henc vim-in, hramannery irenic nerkayacnum en pahpanel faylery inch vor fayli nersum kam kam vim-i nersum gtnvelov inch vor mek ayl fayli parnakutyun bacel kardalu kam edit(xmbagrel) anelu hamar
+aysinqn command mode-um menq hnaravorutyun unenq vim-in poxancel hramanner u hramannery poxancum enq kam command mode mtnum enq hamapatasxanabar es : erku ket u inch vor hramani anun havaqelov
+
+:q  - q(quit(toxnel,lqel), :q -n durs e galis vimic
+:w  - w(write(grel)), ete popoxutyun enq anum u uzum enq popoxutyuny pahpanel :w hramani mijocov enq anum, :w -n save(pahpanel) e anum
+
+ete popoxutyunes anum u aran save anelu uzumes durs gas aysinqn anes :q beruma
+E37: No write since last change (add ! to override) 
+:q!  - durs e galis aranc popoxutyunnery faylum pahelu
+
+.2.2.
+visual mode(tesoxakan rejim) - aysinqn stex vim-um gtnvox fayli het voch mi xmbagrakan gorcsoxutyunner chenq anum ayl hnaravorutyun uneq orinak nshel inch vor mi text-i ktor texapoxutyun anel mek ayl fayl ev ayln ev ayln
+aysinq visual mode-um hishum enq vor teqst havaqelu ashxatanq vorpes aydpisin chi katarvum
+
+v  - mtnum e visual rejim
+aysinqn cankacacs ban vor menq anenq ays rejimum vim-y yndunelu e vorpes visual(tesoxakan) rejim katarvox ban
+hima ete menq aj dsax anenq mer cursore-i gtnvelu vayric mnacacs hatvacsnery sksum e nshely
+
+visual line mode(tesoxakan gcsayin rejim)
+V kam shift+v - mtnum e ayspes asacs visual line rejim
+ev baci da es cankacacs gorcsoxutyun ditarkelu em tox ar tox, ev ayntex vortex coursorn e ayd toxy avtomat nshvum e amboxjutyamb, hima stex menq karox enq vimin poxancel inch vor hraman voch te hramanayin rejimov ayl stexneri mijocov voroncic meky klini jnjel ays erku toxy jnjelu hamar sexmum en (d) tary
+
+visual block mode(tesoxakan blokayin rejim)
+ctrl+v - mtnum e ayspes asacs visual block rejim 
+ystex sharjvume blok ar blok aysinqn vortex vor coursorn e aydtexic ete mi hat aj tanenq u mi hat nerqev knshvi et toxi ev nerqevi toxi hamapatasxan erku tarery
+
+visual,visual line,visual block rejumnerum  cc -n jnjuma nshvacsy ev ancnuma insert rejim aydtex grelov inch vor uzum eq ev ESC sxmelov ayn inch vor nshel eiq kpoxarinvi dser gracsov
+
+
+
+.2.3.
+insert mode(texadrman,mutqagrman rejim) - teqst havaqelu ashxatanq katarvum e insert mode-um
+
+i  - mtnum e insert rejim
+
+
+2.
+nano - text editor(textayin xmbagir), ctrl + x -ov dursa galis
+
+
+3.
+Permissions(tuyltvutyunner)  -  -rwx rwx rwx
+permission -nery 3 masi en bashanvum  read(kardal), write(grel), execute(katarel)
+
+.1.
+-  - regular file(sovorakan file)
+d  - directory
+l  - soft(symbolic) link
+hradlinki demy eli gcsika(-)
+
+c  - character file, xosqy gnum e sarqeri masin kam hatuk tesaki fayleri masin voronq ashxatum en bayteri hosqeri het, aysinqn menq inch vor informacia poxancum enq simvol ar simvol aysinqn hosqov, nman fayli orinak e /dev/null
+ls -l /dev/null
+crw-rw-rw- 1 root root 1, 3 Մար 25 11:03 /dev/null
+
+b  - block file, sa en sarqeri kam en fayleri masin e xosqy gnum voronq ashxatum en voch te tvyalneri hosqeri het ayl tvyalneri amboxjakan ktorneri het blovk-eri het 
+
+
+.2.
+linux um qani tesaki ogtagorcsoxner en dasakargvum, aysinqn goyutyun uni ogtagorcsoxi inch vor tesak haskacoxutyun u sa chi veraberum administratori kam voch administratori sa veraberum e ira henc bnuytov tesakin te ov e fayli het ashxatoxyete ushadrutyun dardsneq en mardy ov fayly stexcsel e et mardy henc handisanuma  et fayli tery ayspes kochvacs owner(sepakanater)-y, aysinqn ete ogatagorcsoxy et fayly chi stexcel ogtagorcsoxy et fayli owner-y chi
+
+-rw-rw-r-- 1 ubuntu ubuntu 4743 Մար 25 11:14 l6
+araji ubuntu grvacsy bary ays depqum araji ubuntu grvacsy cuyc et alis e te ova ays l6 fayli owner-y (aysinqn vor usern e stexcsel l6 fayly
+karox en linel urish userner
+erkrod ubuntu grvacsy fayli xmbi anun e 
+
+
+
+linux ashxarhum taranjatum enq 
+owner(sepakanater), group(xumb), others(ayloq)
+aysinqn ereq tesaki kam ereq xmbi ogtagorcsoxner kan
+
+owner(sepakanater)  -  owner-y ayn usern e vory ayd fayli kam directory-i terne
+
+group(xumb)  -  linux-um goyutyun uni xumb haskacoxutyun, vory teskanoren ansahmanapak qanakov karox e goyutyun unenal hamakragum vory irenic nerkayacnum e mi qani ogtagorcsoxneri xumb 
+aysinqn ete duq linux hamakargy ogtagorcsum eq voch te miaynak ayl mi qani ogtagorcsoxner ogtvum en nuyn hamakargic duq yuraqanchyur ogtagorcsoxi hamar stexcsum eq ira arandsin txtapanaky home dir-um ira hamar tuylatvutyunneri inch vor shem eq sahmanum ev ayln ev ayln, aysinqn tarber ogtagorcsoxner patkeracreq 4-5 hogi ogtvum en ays nuyn hamakargic kam njyn hamakargchic vorosh ogtagorcsoxner, vorosh ogtagorcsoxner karox en patkanal mi xmbi nuyn xmbin
+
+es vorpes ogtagorcsox inch vor mi xmbi mejem gtnvum 
+ete es uzum em imanam te vor xmbum em gtnvum aysinqn en ogtagorcsoxy vor hima ogtagorcsum e, groups hramany inds kasi te es inch xmberi em patkanum, aysinqn sranq en bolor en xmberi anunnern en voronc mas em es 
+ubuntu xumby avtomat stexcsvel e ays user-y stexcselis
+
+ubuntu@ubuntu:/$ whoami
+ubuntu
+ubuntu@ubuntu:/$ groups
+ubuntu adm cdrom sudo dip plugdev lpadmin lxd sambashare
+ubuntu@ubuntu:/$ 
+
+
+others(ayloq)  - faylin karox en mutq unenal ays 3 tesaki mardik, mard ov stexcsela ayd fayly aysinqn fayli owner(sepakanater)-y, mard vor inch vor xmbia patkanum u et xmbi hamar tuyltvutyun ka kam chka inch vor ban ogtagorcselu ev hamapatasxanabar ayloq aysinqn ayl ogtagorcsoxner voronq voch et xmbum en gtnvum voch asenq chgitem inch vor mi kapov aknhayt et ogtagorcsoxi het kap unen 
+
+
+aysinqn yuraqanchyur fayli tesankyunic 3 tesaki ogtagorcsoxnern en ir het ashxatum 
+-rw-rw-r-- 1 ubuntu ubuntu 4743 Մար 25 11:14 l6
+
+owner   - araji ubuntu grvacsy bary ays depqum araji ubuntu grvacsy cuyc e talis e te ova ays l6 fayli owner-y (aysinqn vor usern e stexcsel l6 fayly
+karox en linel urish userner
+
+group   - erkrod ubuntu grvacsy fayli group(xumb)-i anunn e, aysiqn es ogtagorcsoxy patkanum e fayli xmbin aysinqn es fayly stexcsvacs e tulyatvutyamb kam es fayly patkanum e es inch xmbin apa es 2rd eryaky nshum e te et xmbin patkanox user-y inch accses(mutq) uni es hamapatasxan faylin, aysinq  cankacacs user vor patkanum e es xmbin et permission-nery kunena 
+
+others   - u ete goutyun uni ogtagorcsox vory owner-y chi fayli, fayli hamapatasxanabar xmbum chi gtnvum apa et ogtagorcsoxy kkochvi other(ayl), et et user-i hamar ayspes asacs otar user-i hamar permission-nery hamapatasxanabar sahmanvum en verjin eryakov aysinqn eli nuyn skzbunqov
+ete r-n ka apa read accses(mutq) uni
+ete w-n ka apa write accses(mutq) uni 
+ete x-n ka apa execute(katarel) accses(mutq) uni
+
+other    group    others
+rwx       rwx      rwx
+
+directory -i hamar ete x permission-y drvacs e da yndameny nshanakum e vor ogtagorcsoxy karox e mutq gorcsel directory
+drwxrwxr-x 2 ubuntu ubuntu 4096 Մար 24 19:49 pordsarkum
+
+
+
+4. 
+chmod  - chmod(change mode(poxel rejimy)
+
+.1.
+chmod -x pordsarkum 
+chmod -x  nshanakum e bolori hamar ete es konkret chem nshum te um hamar em uzum hanem et permission-y
+
++ avelacnel
+- hanel
+
+owner(user), group, others - ays bareri arajin tarov naxanshum enq te u hamar enq uzum ayd popoxutyuny anenq 
+
+u,g,o, a(all(bolory))
+
+chmod u+r(user+read) file1  - user in trvec read permissionnery
+chmod g-w(group-write) file1  - es xmbin patkanox cankacacs ogtagorcsox chi karoxana gri fayli mej bnakanabar ete ayd usery fayli owner-y chi
+-rw-r--r-- 1 ubuntu ubuntu 9180 Մար 25 13:44 l6
+chmod o+x file1  - otherneri hamar executable(katarvox,gorcsarkvox) darav
+chmod a+r  - a(all), bolorin avelacnuma read permissiony
+
+chmod u-r+wx file1
+chmod ugo+r-w file1
+chmod u+r file1; chmod g+w file1
+
+.2.
+chmod  600 file   -   rw- --- --- file
+
+permission nery naev karox enq tal tverov
+
+   erkuakan h.
+0     000     ---
+1     001     --x
+2     010     -w-
+3     011     -wx
+4     100     r--
+5     101     r-x
+6     110     rw-
+7     111     rwx
+
+
+
+
+5.
+/etc/passwd
+user neri tvyalnery gtnvum en /etc/passwd faylum, voch te ogtagorcsoxnery anmijapes ayl informacian ayd ogtagorcsoxneri masin
+
+ban ayn e vor csragrery linux-um evs karox en linel vorpes ogtagorcsoxner 
+aysinqn ete duq uzum eq inch vor hatuk servis unenal inch vor csragir vory accses(mutq) e unenalu inch vor faylerin gorcsoxutyun ani ev ayln ev ayln da evs karox eq ditarkel ibrev csragir dra hamar stex csragrayin anunner evs ktesneq
+orinak 
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+
+
+sa mer ogtagorcsoxn e
+ubuntu:x:1000:1000:erik,,,:/home/ubuntu:/bin/bash
+
+erku ketov bashanvum en hamapatasxanabar informacian vory verabervum e et ogtagorcsoxin
+et informacian baxkacacs e hetevyal hatvacsneric
+
+.1.
+ubuntu:....
+arajiny anvanvum e login name(mutqi anuny), aysinqn et ogtagorcsoxy inch anunov e login linum vorohetev login name-y u henc ogtagorcsoxi anuny karox en tarbervel iraric
+
+.2.
+ubuntu:x:....
+erkrordy ays (x)-y patmakanoeren stex gtnvela ogtagorcsoxi passwordy,bayc hima aydpes chi ays x-y cuyc e talis vor ogtagorcsoxy password uni bayc ayn irakanum gtnvum e /etc/shadow faylum
+
+ete ogtagorcsox stexcseq u et ogtsgorcsoxi passwordy hly drvacs chi aysinqn hly cheq hase ed qaylin sovorabar x-i texy linum e bacakanchakan nshan(!) aysinqn passwordy chka piti sahmanvi
+
+.3.
+ubuntu:x:1000:....
+hajord tivy kochvum e UID(user identifier) aysinqn ogtagorcsoxi tvayin hamary
+usernery baci iranc anunerov(login namerov) tarbervum en naev hamapatasxanabar uniq(ezaki) tverov, aysinqn voch mi erku user chen karoxana unenal nuyn id-in
+mer usernery sksvum en 1000ic
+
+.4.
+ubuntu:x:1000:1000....
+4rd texum aysinqn 2rd tivy da GID(group id)-n e,nuynpes inchpes fayli het asocacnum enq userid-in nuynkerp fayli het asocacvum e naev xumby aysinqn faylin karox e accses(mutq) unenal inch vor xumb u et xmbin patkanox usernery ev et xmbery mimyancic evs tarberakvum en id-nerov 
+aysinqn stex inch vor imastov es xmbi id-in irenic nerkayacnum e hamarya nuyn ban inch vor userid-in uxaki en tarberutyamb vor es xmbi id-in share(kisvel)a exacs aysinqn kisvuma bolor en userneri het voronq et xmbum patkanum en
+
+.5.
+ubuntu:x:1000:1000:erik,,,
+sa inch vor informaciaya ogtagorcsoxi masin ira amboxjakan anuny karoxa lini ira masin contaktayin tvyalner ev ayln, system adminerin harmara linum et informacian pahel es /etc/passwd faylum
+
+.6.
+ubuntu:x:1000:1000:erik,,,:/home/ubuntu....
+hajordy useri home directoryin e aysinqn vortex e gtnvum et ogtagorcsoxi home directoryin 
+
+
+.7.
+ubuntu:x:1000:1000:erik,,,:/home/ubuntu:/bin/bash
+ev verjiny login shale-na aysinqn ete usery uzuma ogtvi shall-ic vor csragirna da spasarkelu mer hamr by default da /bin/bash-na
+vorosh csragreri depqum voronq ogtagorcsox en stex nerkayacvacs duq karox eq tesnel ayspisi artahaytutyun
+/bin/false - sa nshanakuma vor et user-i hamar shall-i csragir goyutyun chuni
+/usr/sbin/nologin - kam vorosh depqerum ete shall-ic nuynisk ogtvi login linelu kariq chi unena
+
+
+
+6.
+/etc/shadow
+ame mi tox irenic nerkayacnuma mi useri passwordi masin informacia 
+
+sudo vim /etc/shadow
+ubuntu:$y$j9T$KnqY9EPCfSDHVdU/19Ge1.$yH/xfFWEzSGJEim13Km/ilERTCO/0tKo9wEPfVSG5R1:19801:0:99999:7:::
+
+
+arajiny useri anuny erkrordy hamapatasxanabar ogtagorcsoxi passwordna bayc passwordy erbeq grete voch mi tex chi pahpanvum vorpes ayspes kochvacs plain text(parz teqst) ayl ogtagorcsvum e hatuk heshavorman algoritmner
+$1$  - md5 algoritm
+$2$  - Blowfish algoritm
+$6$  - SHA-512 algoritm
+
+
+
+7.
+su  - su(substitute user(poxarinel ogtagorcsoxin) sa hnaravorutyunna talis poxel userin
+su knuth - nshanakuma es poxum em es pahin ogtagorcsoxin, pordsum em noric login linel ibrev knuth user, sexmeluc heto uzuma password bayc im passwordy che ayl en useri um anunic uzumem sharunakel ashxatanqy
+
+ctrl+d kam exit  - veradarnuma en userin vorov menq ashxatum einq
+
+su - newuser??????????
+
+8.
+sudo  - sudo(superuser do(vorpes superuser katarir)), hraman vory linuxy asum e vor es gitem vor du admines ays hamkargi bayc du vorpes ogtagorcsox vorpes admin ches ogtagorcsum ays hamakargy
+sa shat karevor nrbutyunna 
+aysinqn chnayacs vor es ubuntui himnakan ohtagorcsoxy esem es myus ogtagorcsoxnerin esel stexcselem es evs ogtvum em es hamakargic ibrev sovorakan ogtagorcsox aysinqn es root usery chem ete es uzum em root usery linel kam (su root) vory vorosh hamakargerum by default algervuma, kam cankacacs hraman vory uzum eq katarel admini anunic cheq karoxanum katarel vorohetev duq sovorakan ogtagorcsoxi kargavichakum eq orinak (vim /etc/shadow) duq karox eq anel sudo vim /etc/shadow vory asuma vor duq vorpes superuserov eq uzum ays fayly bacel
+
+ete usery sudo xmbum ka apa inqy karuma root-i anvan tak gorcsoxutyun ani 
+
+ls -l /etc/shadow
+-rw-r----- 1 root shadow 1465 Մար 19 12:55 /etc/shadow
+
+$ groups
+ubuntu adm cdrom sudo dip plugdev lpadmin lxd sambashare
+
+
+erik@ubuntu:~/....$ chown ubuntu l6
+chown: changing ownership of 'l6': Operation not permitted(gorcsoxutyuny, shahagorcsumy chi tuylatrvum)
+sudo !!
+sudo chown ubuntu l6
+[sudo] password for erik: 
+erik is not in the sudoers file.  This incident will be reported.
+(Էրիկը sudoers ֆայլում չկա: Այս դեպքի մասին կտեղեկացվի:)
+
+ete usery sudo groupum chka apa inqy chi kara sudo hramany ogtagorcsi
+
+9.
+chown  - chown(change owner(poxel sepakanatirojy)),voch miayn poxum e fayli ownerin ayl naev groupin
+sudo chown knuth file1  - poxum e file1-i owner-in dardsnelov knuth
+chown :adm file1  - poxum e file1-i group-in dardsnelov adm
+chown knuth:adm file1 - dsax koxminy file1-i ownerina poxum aj koxminy file1-i group-in
+
+
+10.
+whoami - cuyc e talis te ove ayd pahin ogtagorcsoxy
+
+
+11.
+udduser, useradd  - user(ogtagorcsox) e avelacnum
+
+adduser hramany asum e vor menak root-y aysinqn superusery kara et ani
+adduser
+adduser: Only root may add a user or group to the system.
+
+
+
+
+ete taza user enq stexcsum  sudo useradd newuser  hramanov ira shell-y linuma sh-n
+grep newuser /etc/passwd
+newuser:x:1001:1001::/home/newuser:/bin/bash
+vorpeszi poxenq ira shell-y anum enq 
+sudo usermod --shell /bin/bash newuser
+
+
+
+
+12.
+addgroup, groupadd - group(xumb) e avelacnum
+
+sudo addgroup imgroup
+sudo addgroup imgroup
+Adding group `imgroup' (GID 1003) ...
+Done.
+
+sudo adduser erik imgroup
+[sudo] password for ubuntu: 
+Sorry, try again.
+[sudo] password for ubuntu: 
+Adding user `erik' to group `imgroup' ...
+Adding user erik to group imgroup
+Done.
+
+su erik
+
+erik@ubuntu:~/....$ groups
+erik imgroup
+
+
+
+13.
+script  - menq karoxanum enq stexcsel fayl vori mej grvacs klini hramanneri bazmutyun vory karoxa katari bashy ankax mer senc hertov havaqeluc aysinqn menq karox enq kombinacnel mi qani hramanner irar het
+
+orinak menq stexcsum enq testscript anunov fayl(vim testscript)
+ete es uzum ashxatacnem testscript-y ibrev csragir apa karoxenq asenq senc current directoryum gtnvox csragiry ashxatacra(./testscript) ashxatacra 
+inchi em havaqum es current directory-ii nshany(./) vorovhetev ete uxaki grem testscript u enter tam sa shell-y haskanalu e vorpes hramani kam csragri anun, bayc mez sa petq cher mez petq er es mer gracsy vorpes bash-i csragir ashxatacnel aysinqn shell-i script vorpes
+et csragrin vortex shell-i hramannern en tvarkvum aysinqn fayl vortex tvarkvacs en shell-i hramannery vor menq uzum enq bash-in poxancenq vor inqy katari nuyn dsev vonc menq havaqeinq himnakanum anvanum en shell script
+
+./testscript ete sxmum enq asuma  permission denied nshanakuma execute(x) anelu permission chunenq  (chmod u+x testscript)
+
+aysinqn ete menq unenq bazmativ gorcsoxutyunner vor alarum enq hertakanutyamb katarel sirun karox enq havaqel mi hat faylum harmarutyan hamar et fayli anuny karox enq dnel ynenc vor inqy avartvi .sh yndlaynumov vor ibrev inqy shell scripta(testscipt.sh) sa harmarutyan hamar, partadir chi u hamapatasxanabar es fayly darnuma scriptayin fayl vory menq execute(x) permission-y talov hnaravorutyun unenq ashxatacnenq 
+
+cat testscript
+echo hello 
+echo barev
+$((3+4))
+echo hajox
+
+./testdisk
+hello
+barev
+./testscript: line 3: 7: command not found
+hajox
+
+
+
+
+(00:00) Ներածություն
+(00:35) vim
+(31:34) Permissions
+(33:14) read, write, execute
+(41:46) owner, group, others
+(51:40) file types
+(1:01:45) chmod
+(1:08:53) octal numbers
+(1:19:32) /etc/passwd
+(1:28:47) /etc/shadow
+(1:29:04) su, sudo
+(1:42:27) chown
+(1:45:45) adduser
+(1:49:53) writing scripts
++whoami(cuyc e talis te et pahin ova ogtagorcsoxy)
+
+
+
+Picsart  mayisi 11
+
+vim-i mej :e  -n gnuma naxord vimov bacac fily
+
+
+urish useri anunic anum enq hraman
+ubuntu@ubuntu:/home$ su -c 'ls -l /home' newuser
+Password: 
+total 8
+drwxr-x---  2 newuser newuser 4096 Մայ 11 12:00 newuser
+drwxr-x--- 22 ubuntu  ubuntu  4096 Մայ 11 11:50 ubuntu
+
+
+useradd hramanov stexcacs userin parolenq stexcsum
+ubuntu@ubuntu:~$ sudo passwd newuser
+[sudo] password for ubuntu: 
+New password: 
+BAD PASSWORD: The password is shorter than 8 characters
+Retype new password: 
+passwd: password updated successfully
+
+
+
+nor stexcacs useri shell-y poxumenq
+ubuntu@ubuntu:/home$ sudo grep ubuntu /etc/passwd
+ubuntu:x:1000:1000:erik,,,:/home/ubuntu:/bin/bash
+ubuntu@ubuntu:/home$ sudo usermod --shell /bin/bash newuser
+ubuntu@ubuntu:/home$ sudo grep newuser /etc/passwd
+newuser:x:1001:1001::/home/newuser:/bin/bash
+ubuntu@ubuntu:/home$ ls
+
+
+
+ete taza user enq stexcsum  sudo useradd newuser  hramanov ira shell-y linuma sh-n
+grep newuser /etc/passwd
+newuser:x:1001:1001::/home/newuser:/bin/bash
+vorpeszi poxenq ira shell-y anum enq
+sudo usermod --shell /bin/bash newuser
+
+
+
+vimtutor hramnay cuyc e talis inchpes ashxatel vim-i het
+
+
+macos-ov stexcsum enq user
+sudo dscl . -create  /user(home)/username 

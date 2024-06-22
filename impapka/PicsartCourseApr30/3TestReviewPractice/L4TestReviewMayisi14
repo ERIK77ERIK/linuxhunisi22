@@ -1,0 +1,208 @@
+Atlas 4/Wave 9 -Test4(William Shotts, Chapters 12, 24 - 25)
+Total points5/100
+ 
+Welcome, students! This is a self-check test specially designed 
+to evaluate your skills and knowledge. Please avoid using any external 
+resources while taking the test, as it is aimed at assessing your 
+current capabilities and identifying areas for improvement. Let's take 
+this opportunity to enhance your expertise!
+The respondent's email (erik2002vardanyan7777@gmail.com) was recorded on submission of this form.
+Enter your full name *
+sdds sdssd
+ 
+echo $(($((5**2)) % 5)) 2> text1, how many bytes will contain text1 file? *
+0/5
+dsds
+ 
+Correct answer
+0
+ 
+Enter the command that will replace all occurrences of word hello with goodbye(in vim).
+*
+0/5
+sd
+ 
+Correct answers
+:%s/hello/goodbye/g
+%s/hello/goodbye/g
+ 
+Where are user passwords located? 
+*
+5/5
+/etc/passwords
+/etc/passwd
+/etc/shadow
+ 
+/shadow/etc
+ 
+Consider D is a name of an empty file, we execute the following commands.What will be the output?
+echo {a..z} > D
+echo {b..e} > D
+echo {1..5} >> D
+echo file >> D
+sort D
+*
+0/5
+sdsd
+ 
+Correct answer
+1 2 3 4 5 b c d e file
+ 
+In vim command mode, what does pressing the 'u' key do?
+*
+0/5
+Save the file
+ 
+Cut the current line
+Undo the last change made in the file
+Move the cursor to the beginning of the line.
+Correct answer
+Undo the last change made in the file
+ 
+How can you save the current file and exit vim?
+*
+0/5
+Type ‘:wq’
+Press ‘Esc’ and then type ‘:save_exit’
+Press ‘Esc’ and then type ’Shift+zz’
+ 
+Press Ctrl+Q
+Correct answer
+Type ‘:wq’
+Press ‘Esc’ and then type ’Shift+zz’
+ 
+What are the main mods in vim?
+*
+0/10
+Command mode
+Working mode
+Visual mode
+Read mode
+Write mode
+Insert mode
+Edit mode
+Quit mode
+ 
+Correct answer
+Command mode
+Visual mode
+Insert mode
+ 
+What type of objects can be depending on the first character that appears as a result of the ls -l command.
+*
+0/10
+Character file
+Hard link
+Read only file
+Directory
+Block file
+Executable program
+Soft link
+Regular File
+Empty file
+ 
+Correct answer
+Character file
+Directory
+Block file
+Soft link
+Regular File
+ 
+Write a command to force quit the vim.
+*
+0/5
+sds
+ 
+Correct answers
+:q!
+:qa!
+:exit
+ 
+By which command you can cut current line in vim?
+*
+···/5
+sss
+ 
+Correct answer
+dd
+ 
+umask 0420
+touch atlas
+What will be permissions for file atlas?
+*
+0/5
+rw-w-w
+ 
+-w-rw-r--
+rw-w----
+-w-r--rw-
+Correct answer
+-w-r--rw-
+ 
+With which command we can start shell as another user? *
+0/5
+sudo
+su
+chown
+chmod
+ 
+Correct answer
+su
+ 
+With which command we can copy from  current line to the end of the file  in vim ? *
+0/5
+y^
+ 
+dG
+yG
+d$
+d0
+y0
+Correct answer
+yG
+ 
+With which command we can open file1 file2 file3 file4 files in vim? *
+0/5
+ssds
+ 
+Correct answers
+vim file1 file2 file3 file4
+vim file{1..4}
+ 
+Enter the command which will set this permissions for file atlas4
+
+---xrw--w-
+*
+0/5
+dsdsd
+ 
+Correct answers
+chmod 162 atlas4
+chmod u=x,g=rw,o=w atlas4
+ 
+Write a command in vim that deletes 5 letters from the current positions.
+0/5
+sdsd
+ 
+Correct answer
+5x
+ 
+What does the ':%s/line/Line/g’ command do?
+0/5
+Save the file with the name "Line."
+ 
+Substitute the first occurrence of "line" with "Line" in the entire file.
+Substitute all occurrences of "line" with "Line" in the entire file.
+Search for the pattern "line" globally in the file.
+Correct answer
+Substitute all occurrences of "line" with "Line" in the entire file.
+ 
+What does the following line '#!/bin/bash' represent in a shell script? *
+0/5
+It is a comment and is ignored by the system.
+ 
+It is a shebang construct that specifies the interpreter to be used for executing the script.
+It is a special command that initializes the shell environment.
+It is used for debugging purposes and can be safely removed from the script.
+Correct answer
+It is a shebang construct that specifies the interpreter to be used for executing the script.

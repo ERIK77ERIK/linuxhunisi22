@@ -1,0 +1,1000 @@
+ 1001  vim l7
+ 1002  cd -
+ 1003  cd ~
+ 1004  ls -al
+ 1005  .bashrc
+ 1006  vim .bashrc
+ 1007  ls
+ 1008  vim ./bashrc
+ 1009  vim /.bashrc
+ 1010  vim ./.bashrc
+ 1011  ls
+ 1012  pwd
+ 1013  cd impapka/WILE/l7ProcessesAndTheEnvironment/;vim l7
+ 1014  ls -al
+ 1015  cd ~; ls -al; cd -
+ 1016  ls ~ -al
+ 1017  ls ~ -a
+ 1018  ls ~ -A
+ 1019  ls -al ~
+ 1020  source ~/.bashrc
+ 1021  vim ~/.bashrc
+ 1022  history
+ 1023  wi man
+ 1024  source ~/.bashrc
+ 1025  wi man
+ 1026  vim l7
+ 1027  sudo apt install sl
+ 1028  man sl
+ 1029  sl
+ 1030  vim l7
+ 1031  ls /
+ 1032  ls ~
+ 1033  ls ~/Downloads/
+ 1034  ls
+ 1035  ls -Rl / > barev; less barev
+ 1036  ls
+ 1037  ls -al
+ 1038  ls
+ 1039  rm barev
+ 1040  ls
+ 1041  vim l7
+ 1042  ls -a ~
+ 1043  vim ~/.bashrc
+ 1044  wi man
+ 1045  source ~/.bashrc
+ 1046  wi man
+ 1047  history
+ 1048  vim ~/.bashrc
+ 1049  wi man
+ 1050  whatis man
+ 1051  source ~/.bashrc
+ 1052  wi man
+ 1053  vim ~/.bashrc
+ 1054  fgf /
+ 1055  source ~/.bashrc
+ 1056  fgf /
+ 1057  ls /
+ 1058  vim ~/.bashrc
+ 1059  ls
+ 1060  fgf /
+ 1061  ls /
+ 1062  source ~/.bashrc
+ 1063  fgf /
+ 1064  ls /
+ 1065  fgf /
+ 1066  cd impapka/WILE/l7ProcessesAndTheEnvironment/;ls
+ 1067  vim l7
+ 1068  ls
+ 1069  vim ~/.bashrc
+ 1070  kl /
+ 1071  source ~/.bashrc
+ 1072  kl /
+ 1073  vim ~/.bashrc
+ 1074  source ~/.bashrc
+ 1075  kl /
+ 1076  reset
+ 1077  kl /
+ 1078  cvlear
+ 1079  clear
+ 1080  ./reset
+ 1081  kl ~
+ 1082  kl /
+ 1083  cd impapka/WILE/l7ProcessesAndTheEnvironment/;ls
+ 1084  vim ~/.bashrc
+ 1085  ls
+ 1086  vim l7
+ 1087  ls
+ 1088  cd ..;ls
+ 1089  ls
+ 1090  ls -al
+ 1091  sl
+ 1092  man sl
+ 1093  sl -e
+ 1094  sl -f
+ 1095  sl -a
+ 1096  sl -l
+ 1097  sl -F
+ 1098  sl -k
+ 1099  sl -s
+ 1100  ls
+ 1101  ls -Ral /
+ 1102  ls /
+ 1103  ls -l /
+ 1104  ls /usr/bin
+ 1105  ls -l /usr/bin
+ 1106  cat /usr/bin/xzgrep
+ 1107  ls /
+ 1108  ls -l /
+ 1109  cat /swapfile 
+ 1110  cat /sbin
+ 1111  ls /sbin
+ 1112  cat /sbin/lpinfo
+ 1113  cat /sbin/*
+ 1114  les clear
+ 1115  clear
+ 1116  less /sbin/*
+ 1117  ls /
+ 1118  ls -l
+ 1119  ls -l /
+ 1120  ls -l /bin
+ 1121  ls /bin
+ 1122  ls -l /bin
+ 1123  ls /bin -l
+ 1124  cd /bin
+ 1125  ls
+ 1126  ls -l
+ 1127  cat xmore
+ 1128  vim xmore
+ 1129  ls
+ 1130  clear
+ 1131  ls
+ 1132  clear
+ 1133  ls /
+ 1134  ls /lib
+ 1135  ls /lib/apt
+ 1136  ls /lib/apt -l
+ 1137  cat /lib/apt apt-helper
+ 1138  ls /lib/apt apt-helper -l
+ 1139  ls /lib/apt/apt-helper -l
+ 1140  ls /lib/apt/apt-helper
+ 1141  ls /
+ 1142  cd /usr
+ 1143  ls
+ 1144  cd lib
+ 1145  ls
+ 1146  cd ..;ls
+ 1147  cd bin
+ 1148  ls
+ 1149  ls -l
+ 1150  cat xzgrep
+ 1151  less xzgrep
+ 1152  ls
+ 1153  cat *
+ 1154  ls /etc
+ 1155  ls /
+ 1156  cd /usr;ls
+ 1157  cd lib
+ 1158  ls
+ 1159  cd ssl
+ 1160  ls
+ 1161  ls -l'
+ 1162  ls -l
+ 1163  cat openssl.cnf 
+ 1164  ls -Ral /; cat ls -Ral /
+ 1165  cat ls -Ral /
+ 1166  cat /*
+ 1167  ls
+ 1168  ls /
+ 1169  cd /usr;ls
+ 1170  ls
+ 1171  cd bin
+ 1172  ls
+ 1173  cat /usr/bin/*
+ 1174  clear
+ 1175  cd /
+ 1176  ls
+ 1177  cd ~/impapka/WILE/l7ProcessesAndTheEnvironment/
+ 1178  ls
+ 1179  cd ..
+ 1180  ls
+ 1181  mkdir l8Networking-WorkingInaLinuxEnvironment
+ 1182  ls
+ 1183  cd l8Networking-WorkingInaLinuxEnvironment/
+ 1184  > l8
+ 1185  ls
+ 1186  ls -l
+ 1187  cat > ss
+ 1188  ls
+ 1189  cat ss
+ 1190  ls -l
+ 1191  vim aaa
+ 1192  ls -l
+ 1193  rm aaa  ss 
+ 1194  ls
+ 1195  pwd
+ 1196  mkdir pordsarkum
+ 1197  ls
+ 1198  vim l8
+ 1199  ls
+ 1200  ~/.bashrc
+ 1201  vim ~/.bashrc
+ 1202  cd impapka/WILE/l7ProcessesAndTheEnvironment/
+ 1203  ls
+ 1204  ls -al
+ 1205  ls
+ 1206  vim l7
+ 1207  cd ..;ls
+ 1208  cd l8Networking-WorkingInaLinuxEnvironment/
+ 1209  ls
+ 1210  vim l8
+ 1211  ping facebook.com
+ 1212  ping ytoutube.com
+ 1213  ping youtube.com
+ 1214  ls
+ 1215  vim l8
+ 1216  ping facebook.com
+ 1217  vim l8
+ 1218  ping facebook.com
+ 1219  vim l8
+ 1220  rm aaa  ss 
+ 1221  vim l8
+ 1222  ssh 157.240.234.35
+ 1223  ssh edge-star-mini-shv-02-sof1.facebook.com (157.240.234.35):
+ 1224  ssh (157.240.234.35):
+ 1225  ssh edge-star-mini-shv-02-sof1.facebook.com (157.240.234.35):
+ 1226  ssh edge-star-mini-shv-02-sof1
+ 1227  ssh (157.240.234.35):
+ 1228  ssh 141.136.74.100
+ 1229  ssh 234.23.234.100
+ 1230  ssh 234.23.24.100
+ 1231  ssh 192.168.1.1. 
+ 1232  123456
+ 1233  ssh 192.168.1.1. 
+ 1234  ssh 141.136.74.100
+ 1235  ssh 157.240.234.35
+ 1236  ls
+ 1237  ls -al
+ 1238  ssh
+ 1239  ssh 138.201.20.223
+ 1240  ssh 141.36.74.100
+ 1241  ssh 138.201.20.223
+ 1242  top
+ 1243  cd impapka/WILE/l
+ 1244  cd impapka/WILE/
+ 1245  ls
+ 1246  cd l7ProcessesAndTheEnvironment/
+ 1247  ls
+ 1248  vim l7
+ 1249  cd ..
+ 1250  ls
+ 1251  cd l8Networking-WorkingInaLinuxEnvironment/
+ 1252  ls
+ 1253  vim l8
+ 1254  traceroute
+ 1255  traceroute ls
+ 1256  top
+ 1257  prsee
+ 1258  ls
+ 1259  cd ..
+ 1260  ls
+ 1261  cd l7ProcessesAndTheEnvironment/
+ 1262  vim l7
+ 1263  ps
+ 1264  pstree
+ 1265  cd ..
+ 1266  ls
+ 1267  cd l8Networking-WorkingInaLinuxEnvironment/
+ 1268  vim l8
+ 1269  ping facebook.com
+ 1270  vim l8
+ 1271  ping facebook.com
+ 1272  ping youtube.com
+ 1273  ping 0.0.0.0
+ 1274  ssh 127.0.0.1
+ 1275  ssh 127.0.0.1@ubuntu
+ 1276  ssh 127.0.0.1:22@ubuntu
+ 1277  ping facebook.com
+ 1278  cd ~
+ 1279  ping facebook.com
+ 1280  sudo ping facebook.com
+ 1281  ping facebook.com
+ 1282  ssh 157.240.234.35
+ 1283  ssh 10.123.50.217
+ 1284  ssh 10.123.50.217:22
+ 1285  ssh 10.123.50.217@hakob
+ 1286  ssh 123.10.13.54
+ 1287  top
+ 1288  htop
+ 1289  apt install htop
+ 1290  sudo apt install htop
+ 1291  htop
+ 1292  ssh 123.10.13.54
+ 1293  ssh 138.201.20.223
+ 1294  ssh 195.250.77.126
+ 1295  ssh 138.201.20.223
+ 1296  ssh 138.201.20.221
+ 1297  ssh 131.201.20.223
+ 1298  ssh 131.20.20.223
+ 1299  ssh 138.201.29.223
+ 1300  ssh 138.201.20.223
+ 1301  ssh 138.201.20.220
+ 1302  ssh 138.201.20.217
+ 1303  ssh 138.201.20.220
+ 1304  ssh 138.201.20.223 'ls'
+ 1305  ls
+ 1306  cd impapka/WILE/
+ 1307  ls
+ 1308  cd l8Networking-WorkingInaLinuxEnvironment/
+ 1309  ls
+ 1310  vim l8
+ 1311  cd ..
+ 1312  ls
+ 1313  cd l7ProcessesAndTheEnvironment/;vim l7
+ 1314  cd ..;
+ 1315  ls
+ 1316  cd l8Networking-WorkingInaLinuxEnvironment/;ls
+ 1317  scp 138.201.20.223:/users/vardanator/temp .
+ 1318  ssh 138.201.20.221
+ 1319  ls
+ 1320  vim l8
+ 1321  ls
+ 1322  cd ..;ls
+ 1323  cd ..
+ 1324  ls
+ 1325  cd C_FUNDAMENTALS
+ 1326  mkdir C_FUNDAMENTALS
+ 1327  ls
+ 1328  cd C_FUNDAMENTALS/
+ 1329  ls
+ 1330  vim l1CFundamentals
+ 1331  ls
+ 1332  mv l1CFundamentals l1CFundamentals.c
+ 1333  ls
+ 1334  vim l1CFundamentals.c 
+ 1335  gcc
+ 1336  cc
+ 1337  g++
+ 1338  c++
+ 1339  cc
+ 1340  gcc
+ 1341  cc
+ 1342  c++
+ 1343  g++
+ 1344  vim l1CFundamentals.c 
+ 1345  ls
+ 1346  mkdir l1CFundamentals
+ 1347  mv l1CFundamentals.c  l1CFundamentals
+ 1348  ls
+ 1349  cd l1CFundamentals/
+ 1350  LS
+ 1351  ls
+ 1352  vim l1.c
+ 1353  ls
+ 1354  mv l1CFundamentals.c l1CFundamentals
+ 1355  ls
+ 1356  vim l1CFundamentals 
+ 1357  vim l1.c
+ 1358  gcc
+ 1359  g++
+ 1360  cc
+ 1361  c++
+ 1362  gj
+ 1363  gjava
+ 1364  ls
+ 1365  vim l1C
+ 1366  vim l1CFundamentals 
+ 1367  gcc l1.c
+ 1368  sudo apt install gcc
+ 1369  gc
+ 1370  g++
+ 1371  cc
+ 1372  gj
+ 1373  gjava
+ 1374  c++
+ 1375  cc
+ 1376  ls
+ 1377  gcc l1.c
+ 1378  ls
+ 1379  ./a.out
+ 1380  vim l1.c
+ 1381  ls
+ 1382  ./a.out
+ 1383  vim l1C
+ 1384  ls
+ 1385  vim l1CFundamentals 
+ 1386  vim l1.c
+ 1387  ls
+ 1388  ./a.out
+ 1389  ssh 138.201.20.223
+ 1390  ssh 130.193.120.65
+ 1391  ssh 130.193.120.65port22
+ 1392  ssh 130.193.120.65@hakob-vardanyan
+ 1393  ssh 130.193.120.65@
+ 1394  ssh 130.193.120.65
+ 1395  ssh 130.193.120.62
+ 1396  ssh 130.193.120.61
+ 1397  ssh 130.193.120.60
+ 1398  ssh 130.193.120.623
+ 1399  ssh 130.193.120.69
+ 1400  ssh 130.193.120.678
+ 1401  ssh 130.193.120.78
+ 1402  ssh 130.193.120.11
+ 1403  ssh 130.193.120.9
+ 1404  ssh 130.193.120.4
+ 1405  ssh 130.193.120.3
+ 1406  ssh 130.193.120.11
+ 1407  ssh 130.193.120.34
+ 1408  ssh 130.193.120.65
+ 1409  ssh 130.193.120.56
+ 1410  ssh 192.168.88.200
+ 1411  ssh 192.168.88.205
+ 1412  ssh 192.168.83.200
+ 1413  ssh 192.165.88.200
+ 1414  ssh 190.168.88.200
+ 1415  ssh root@45.8.133.56
+ 1416  ls
+ 1417  ssh root@45.8.133.56
+ 1418  ifconfig
+ 1419  ipconfig
+ 1420  ifconfig
+ 1421  sudo apt install net-tools
+ 1422  ifdconfig
+ 1423  ifconfig
+ 1424  ls
+ 1425  cd impapka/WILE/
+ 1426  ls
+ 1427  cd l8Networking-WorkingInaLinuxEnvironment/
+ 1428  ls
+ 1429  vim l8
+ 1430  ls -Rl
+ 1431  ls -Rl /
+ 1432  clear
+ 1433  ls
+ 1434  ls -l
+ 1435  cd impapka/C_FUNDAMENTALS/
+ 1436  ls
+ 1437  cd l1CFundamentals/
+ 1438  LS
+ 1439  ls
+ 1440  vim l1CFundamentals 
+ 1441  vim l1.c
+ 1442  gcc l2.c
+ 1443  gcc l1.c
+ 1444  ls
+ 1445  ./a.out
+ 1446  cc l1.c
+ 1447  cc l1.c -o barev
+ 1448  ls
+ 1449  ./barev
+ 1450  vim l1.c
+ 1451  ls
+ 1452  vim l1CFundamentals 
+ 1453  ls
+ 1454  rm barev
+ 1455  ls
+ 1456  gj l1.c -o barev
+ 1457  gjava l1.c -o barev
+ 1458  ls
+ 1459  g++ l1.c -o barev
+ 1460  c++ l1.c -o barev
+ 1461  cc l1.c -o barev
+ 1462  ls
+ 1463  rm barev
+ 1464  rm a.out
+ 1465  ls
+ 1466  vim l1CFundamentals 
+ 1467  ls
+ 1468  vim l1CFundamentals 
+ 1469  ls
+ 1470  vim l1.c\
+ 1471  vim l1.c
+ 1472  ls
+ 1473  l1.c
+ 1474  ;s
+ 1475  ls
+ 1476  ./l1.c
+ 1477  ls -l
+ 1478  chmod u+x l1.c
+ 1479  ls -l
+ 1480  ./l1.c
+ 1481  vim l1.c
+ 1482  ls
+ 1483  ./l1.c
+ 1484  ls
+ 1485  vim l1.c
+ 1486  vim l1CFundamentals 
+ 1487  ls
+ 1488  ls -l
+ 1489  chmod u-x l1.c
+ 1490  ls -l
+ 1491  vim l1.c
+ 1492  ls
+ 1493  vim l1CFundamentals 
+ 1494  cc l1.c
+ 1495  vi l1CFundamentals 
+ 1496  ls
+ 1497  ls -l
+ 1498  gcc l1.c -o bar
+ 1499  vim l1.c
+ 1500  gcc l1.c -o bar\
+ 1501  ls
+ 1502  ls -l
+ 1503  ./bar
+ 1504  vim l1CFundamentals 
+ 1505  vim l1.c
+ 1506  gcc l1.c -o barr
+ 1507  vim vim l1CFundamentals 
+ 1508  ls
+ 1509  rm bar barr
+ 1510  ls
+ 1511  vim l1CFundamentals 
+ 1512  gcc l1.c
+ 1513  vim l1.c
+ 1514  vim l1CFundamentals 
+ 1515  ls
+ 1516  vim l1CFundamentals
+ 1517  vim l1.c
+ 1518  gcc l1.c
+ 1519  ./a.out
+ 1520  vim l1.c
+ 1521  gcc l1.c
+ 1522  ./a.out
+ 1523  vim ;1C
+ 1524  vim l1CFundamentals 
+ 1525  vim l1.c
+ 1526  vim l1CFundamentals 
+ 1527  vim l1.c
+ 1528  gcc l1.c
+ 1529  ./a.out
+ 1530  vim l1.c
+ 1531  gcc l1.c
+ 1532  ls
+ 1533  ./a.out
+ 1534  ./a.ot
+ 1535  ./a.out
+ 1536  vim l1CFundamentals 
+ 1537  ls
+ 1538  ls -l
+ 1539  ls 
+ 1540  ls -l
+ 1541  vim l1.c
+ 1542  ls
+ 1543  gcc l1.c -o bar
+ 1544  ls
+ 1545  ./bar
+ 1546  vim l1.c
+ 1547  ls
+ 1548  rm bar
+ 1549  ls
+ 1550  gcc l1.c -o bar
+ 1551  ls
+ 1552  ./bar
+ 1553  vim l1.c
+ 1554  ls
+ 1555  ls -l
+ 1556  rm bar
+ 1557  ls
+ 1558  ./a.out
+ 1559  rm a.out
+ 1560  ls
+ 1561  gcc l1.c
+ 1562  ls
+ 1563  ./a.out
+ 1564  clear
+ 1565  ls
+ 1566  cd /;ls
+ 1567  ls -lRa
+ 1568  ls
+ 1569  ls usr
+ 1570  ls usr/lib
+ 1571  ls
+ 1572  cd ~/impapka/WILE/;ls
+ 1573  cd l8Networking-WorkingInaLinuxEnvironment/
+ 1574  ls
+ 1575  vim l8
+ 1576  ls
+ 1577  ls -al
+ 1578  cat .l8.swp
+ 1579  less .l8.swp
+ 1580  ls
+ 1581  ls -al
+ 1582  rm .8.swp
+ 1583  ls -al
+ 1584  rm .l8.swp
+ 1585  ls
+ 1586  ls -a
+ 1587  vim l8
+ 1588  ssh 208.67.220.220 
+ 1589  ls
+ 1590  cd ~
+ 1591  ls
+ 1592  vim l1CFundamentals 
+ 1593  ls
+ 1594  vim l1.c
+ 1595  ls
+ 1596  pwd
+ 1597  cd impapka/C_FUNDAMENTALS/
+ 1598  ls
+ 1599  cd l1CFundamentals/
+ 1600  ls
+ 1601  vim l1.c
+ 1602  ./a.out
+ 1603  data
+ 1604  date
+ 1605  cal
+ 1606  call
+ 1607  cd impapka/WILE/l1ExploringTheSystem/
+ 1608  ls
+ 1609  cd ..;ls
+ 1610  cd l2TestReviewL1/
+ 1611  ls
+ 1612  cd ..
+ 1613  cd l3ManipulatingFsAndDs/
+ 1614  LS
+ 1615  ls
+ 1616  vim l3
+ 1617  ls
+ 1618  pwd
+ 1619  cd ../..
+ 1620  ls
+ 1621  cd C_FUNDAMENTALS/
+ 1622  ls
+ 1623  cd l1CFundamentals/
+ 1624  LS
+ 1625  ls
+ 1626  vim l1CFundamentals 
+ 1627  ls
+ 1628  vim l1.c
+ 1629  gcc l1.c
+ 1630  ./a.out
+ 1631  vim l1.c
+ 1632  gcc l1.c
+ 1633  ./a.out
+ 1634  ls
+ 1635  vim l1CFundamentals 
+ 1636  ls
+ 1637  vim l1.c
+ 1638  gcc l1.c
+ 1639  ./a.out
+ 1640  gcc l1.c
+ 1641  ./a.out
+ 1642  vim l1.c
+ 1643  ls
+ 1644  ./l1.c
+ 1645  gcc l1.c
+ 1646  ./a.out
+ 1647  vim l1.c
+ 1648  ls
+ 1649  ls -l
+ 1650  ls
+ 1651  vim l1CFundamentals 
+ 1652  gcc
+ 1653  vim l1.c
+ 1654  vim l1CFundamentals 
+ 1655  ls
+ 1656  ./a.out
+ 1657  vim l1.c
+ 1658  ls
+ 1659  gcc l1.x
+ 1660  gcc l1.c
+ 1661  ls
+ 1662  ./a.out
+ 1663  ls
+ 1664  pwd
+ 1665  ls -l
+ 1666  ls -a
+ 1667  ls
+ 1668  pwd
+ 1669  cd impapka/C_FUNDAMENTALS/
+ 1670  ls
+ 1671  cs l1CFundamentals/
+ 1672  cd l1CFundamentals/
+ 1673  ls
+ 1674  vim l1CFundamentals 
+ 1675  ls
+ 1676  ls -a
+ 1677  cd ..
+ 1678  ls
+ 1679  pwd
+ 1680  ls
+ 1681  pwd;ls
+ 1682  ls
+ 1683  mkdir l2DatabaseTypesTBT
+ 1684  cd l2DatabaseTypesTBT/
+ 1685  cd ..
+ 1686  ls
+ 1687  cd l1CFundamentals/
+ 1688  ls
+ 1689  cd ..
+ 1690  ls
+ 1691  cd l2DatabaseTypesTBT/
+ 1692  ls
+ 1693  vim l2DatabaseTypesTBT/
+ 1694  ls
+ 1695  vim l2DatabaseTypesTBT
+ 1696  ls
+ 1697  vim l2.c
+ 1698  ls
+ 1699  vim l2DatabaseTypesTBT 
+ 1700  ls
+ 1701  cd ..;ls
+ 1702  cd l1CFundamentals/
+ 1703  LS
+ 1704  ls
+ 1705  vim l1.c
+ 1706  ls
+ 1707  vim l1CFundamentals 
+ 1708  ls
+ 1709  cd ..;ls
+ 1710  xls
+ 1711  ls
+ 1712  cd l2DatabaseTypesTBT/
+ 1713  ls
+ 1714  vim l2.c
+ 1715  gcc l2.c
+ 1716  ./a.out
+ 1717  vim l2.c
+ 1718  gcc l2.c
+ 1719  ./a.out
+ 1720  ASCII
+ 1721  ascii
+ 1722  sudo apt install ascii
+ 1723  ascii
+ 1724  ls
+ 1725  vim l2.c
+ 1726  gcc l2.c
+ 1727  vim l2.c
+ 1728  gc l2.c
+ 1729  gcc l2.c
+ 1730  vim l2.c\
+ 1731  vim l2.c
+ 1732  ls
+ 1733  gcc l2.c
+ 1734  vim l2.c
+ 1735  ls
+ 1736  gcc l2.c
+ 1737  ./a.out
+ 1738  gcc l2.c
+ 1739  vim l2.c
+ 1740  gcc l2.c
+ 1741  ls
+ 1742  vim l2.c
+ 1743  ls
+ 1744  gcc l2.c
+ 1745  ./a.out
+ 1746  vim l2DatabaseTypesTBT 
+ 1747  vim l2.c
+ 1748  vim l2DatabaseTypesTBT 
+ 1749  ls
+ 1750  vim l2.c
+ 1751  ls
+ 1752  gcc l2.c
+ 1753  ./a.out
+ 1754  vim l2.c
+ 1755  ls
+ 1756  vim l2D
+ 1757  vim l2DatabaseTypesTBT 
+ 1758  ls
+ 1759  vim l2DatabaseTypesTBT 
+ 1760  ls
+ 1761  ls -al
+ 1762  less .l2DatabaseTypesTBT.swp 
+ 1763  ls -al
+ 1764  rm .l2DatabaseTypesTBT.swp 
+ 1765  ls
+ 1766  ls -al
+ 1767  gcc l2.c
+ 1768  ./a.out
+ 1769  cat l2.c
+ 1770  vim l2.c
+ 1771  ls
+ 1772  ./a.out
+ 1773  cat l2.c
+ 1774  vim l2DatabaseTypesTBT 
+ 1775  ls
+ 1776  vim l2.x
+ 1777  vim l2.c
+ 1778  ls
+ 1779  gcc l2.c
+ 1780  ./a.out
+ 1781  vim l2DatabaseTypesTBT 
+ 1782  ls
+ 1783  vim l2.c
+ 1784  gcc l2.c
+ 1785  ls
+ 1786  ./a.out
+ 1787  vim l2DatabaseTypesTBT 
+ 1788  ls
+ 1789  vim l2.c
+ 1790  ls
+ 1791  gcc l2c
+ 1792  gcc l2.c
+ 1793  ./a.out
+ 1794  vim l2.c
+ 1795  gcc l2.c
+ 1796  ./a.out
+ 1797  vim l2DatabaseTypesTBT 
+ 1798  ls
+ 1799  ./a.out
+ 1800  ls -l
+ 1801  cd ..
+ 1802  ls
+ 1803  cd l2DatabaseTypesTBT/
+ 1804  ls
+ 1805  cd ..; cd l1CFundaamentals
+ 1806  ls
+ 1807  cd l1CFundamentals/
+ 1808  ls
+ 1809  ./a.out
+ 1810  vim l1.c
+ 1811  ./a.out
+ 1812  vim l1.c
+ 1813  vim l2.c
+ 1814  ls
+ 1815  vim l1CFundamentals 
+ 1816  ls
+ 1817  cd impapka/;ls
+ 1818  cd WILE/
+ 1819  LS
+ 1820  ls
+ 1821  cd l8Networking-WorkingInaLinuxEnvironment/
+ 1822  ls
+ 1823  vim l8
+ 1824  ping
+ 1825  cd ..
+ 1826  ls
+ 1827  cd l7ProcessesAndTheEnvironment/
+ 1828  ls
+ 1829  vim l7
+ 1830  top
+ 1831  printenv
+ 1832  ls
+ 1833  vim l7
+ 1834  cd ~
+ 1835  ls -a
+ 1836  vim .profile
+ 1837  echo $PATH
+ 1838  ls
+ 1839  printenv $PATH
+ 1840  cd -
+ 1841  ls
+ 1842  vim l7
+ 1843  ls -a
+ 1844  cd ~
+ 1845  ls
+ 1846  ls -a
+ 1847  vim .bashrc
+ 1848  ls
+ 1849  vim c.c
+ 1850  gcc c.c
+ 1851  ls
+ 1852  ./a.out
+ 1853  a.out
+ 1854  ls -a
+ 1855  vim .bashrc
+ 1856  gcc c.c
+ 1857  ./a.out
+ 1858  a.out
+ 1859  pwd
+ 1860  vim .bashrc
+ 1861  gcc c.c
+ 1862  a.out
+ 1863  ./a.out
+ 1864  vim .bashrc
+ 1865  ls
+ 1866  rm c.c
+ 1867  ls
+ 1868  rm a.out
+ 1869  ls
+ 1870  cd -
+ 1871  ls
+ 1872  vim l7
+ 1873  ls
+ 1874  cd ..
+ 1875  ls
+ 1876  cd ..
+ 1877  ls
+ 1878  cd C_FUNDAMENTALS/
+ 1879  ls
+ 1880  cd l2DatabaseTypesTBT/
+ 1881  LS
+ 1882  ls
+ 1883  vim l2.c
+ 1884  ls
+ 1885  a.out
+ 1886  ./a.out
+ 1887  ls
+ 1888  pwd
+ 1889  ls -l
+ 1890  ls
+ 1891  vim l2DatabaseTypesTBT
+ 1892  ls
+ 1893  ls -l
+ 1894  top
+ 1895  prcee
+ 1896  apropros prcee
+ 1897  apropos prcee
+ 1898  ls
+ 1899  cd ..
+ 1900  ls
+ 1901  cd ..
+ 1902  ls
+ 1903  cd WILE
+ 1904  ls
+ 1905  cd l7ProcessesAndTheEnvironment/
+ 1906  ls
+ 1907  vim l7
+ 1908  printenv PATH
+ 1909  echo $PATH
+ 1910  vim l7
+ 1911  ls
+ 1912  vim l7
+ 1913  ls
+ 1914  pwd
+ 1915  la -al
+ 1916  vim .bashrc
+ 1917  ls
+ 1918  pwd
+ 1919  cd /
+ 1920  ls -Rla
+ 1921  ls
+ 1922  pwd
+ 1923  ls
+ 1924  ls -al]
+ 1925  ls -al
+ 1926  ls -l
+ 1927  ls
+ 1928  ls -l
+ 1929  ls
+ 1930  ls -l
+ 1931  ls
+ 1932  cd impapka/C_FUNDAMENTALS/l2DatabaseTypesTBT/
+ 1933  ls
+ 1934  vim l2.c
+ 1935  ls
+ 1936  gcc l2.c
+ 1937  ./a.out
+ 1938  vim l2.c
+ 1939  ls
+ 1940  gcc l2.c
+ 1941  vim l2.c
+ 1942  ls
+ 1943  vim l2.c
+ 1944  gcc l2.c
+ 1945  ./a.out
+ 1946  vim l2.c
+ 1947  gcc l2.c
+ 1948  ./a.out
+ 1949  ls
+ 1950  cd ..
+ 1951  ls
+ 1952  cd ..
+ 1953  ls
+ 1954  cd impapka/WILE/
+ 1955  ls
+ 1956  cd ..
+ 1957  ls
+ 1958  ls -al / > barev
+ 1959  ls
+ 1960  less barev
+ 1961  ls
+ 1962  less barev
+ 1963  rm barev
+ 1964  ls -aR / > barev
+ 1965  ls
+ 1966  less barev
+ 1967  ls
+ 1968  less barev
+ 1969  ls
+ 1970  cat barve]
+ 1971  cat barev
+ 1972  ls
+ 1973  rm barev
+ 1974  ls
+ 1975  cd impapka/WILE/
+ 1976  LS
+ 1977  ls
+ 1978  cd l8Networking-WorkingInaLinuxEnvironment/
+ 1979  ls
+ 1980  vim l8
+ 1981  ls
+ 1982  cd ..
+ 1983  ls
+ 1984  cd ..
+ 1985  ls
+ 1986  cd C_FUNDAMENTALS/
+ 1987  ls
+ 1988  ssh 123.45.233.23
+ 1989  ssh 123.234.232.32root@hakob
+ 1990  ls
+ 1991  cd ..
+ 1992  ls
+ 1993  ssh 138.201.20.223
+ 1994  history
+ 1995  less history
+ 1996  history > barev
+ 1997  less barev
+ 1998  ls
+ 1999  rm barev
+ 2000  history > historyhhh

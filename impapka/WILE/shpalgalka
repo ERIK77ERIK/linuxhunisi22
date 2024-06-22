@@ -1,0 +1,189 @@
+1..
+mayisi 11  arturi conspekty
+
+vim-i hramaneri rejimi hramannery
+
+:w  -> save
+:q  -> quiting the vim(Important!: save the changes between exiting)
+:wq -> writing or saving and exiting from vim
+:e  -> witching between files inside vim(if the file does not exist vim is creathing)
+:r  -> copying all the content from the selected file to the current file(starting from cursor)
+:bn -> switch to the next file
+:bp -> switching to the previous file
+
+yy  -> yanking(copying the selected part of file)
+p -> paste the copied text to the file
+dd -> Deleting the line where the cursor is (Works both in Visual or Command Mode)
+
+ctrl + v -> in visual block mode we select the block then type C it removes and we entering an insert mode then anyting you want you type after ESC it repeats for each line
+
+insert mode-um 
+ctrl+p -> !NOTE(In insert Mode) Completes the word for example (Co -> Code) Auto Complete
+
+:%s/helo/barev/g  -> replaces the (all) old words to the new word
+:3,8s/enbaryvoryzumenqpoxenq/inchnemuzumpoxem/g - replaces (all) old words from range of lines to new word(from 1 - 10)
+:1;3;7/enbaryvoryzumenqpoxenq/inchnemuzumpoxem/g - replaces (all) old words in specified lines(1 and 5)
+:%s/new/old/gc -> replaces (all) old words in all text and asks for confirumation
+
+
+
+terminali vrai keyboardery(stexnashari hnarqnery)
+terminali vra
+
+MAYISI 8    DAS 9 DASAXOSUTYUN
+ALT+F   - bary ach mi-mi bar
+ALT+B   - bary dsax mi-mi bar
+CTRL+F  - tary ach mi-mi tar
+CTRL+B  - tary dsax mi-mi tar
+
+ALT+E   - toxi verj
+ALT+A   - toxi skizb
+
+CTRL+T  - tary dsaxi tari het texerov poxuma
+ALT+T   - bary dsaxi bari het texerov poxuma
+
+CTRL+U  - cursoric dsax sax toxy jnjuma
+CTRL+K  - cursoric aj sax toxy jnjuma
+CTRL+Y  - PASTA-a anum jnjacsy
+
+ALT+U   -  cursori texic depi aj amoxj bary dardsnuma mecsatar cusory tanelov bari verj
+ALT+L   - cursori texic depi aj amoxj bary dardsnuma poqratar cusory tanelov bari verj
+ALT+C   - cursori texic depi aj amoxj bary dardsnuma poqratar isk araji tary mecsatar cusory tanelov bari verj
+
+   ||
+   ||
+
+sandbox das 5
+
+terminali mej
+alt + b  - bari araji tari vra dsax a gnum amen barov
+alt + f  - bari verji tari vra aj a gnum amen barov
+
+ctrl + k - kill(spanel), cut(ktrel) e anum cursori dirqic michev toxi verj exacsy, bayc inqy chi korum inqy mnacela ete menq uzenq iran eli ogtagorcsenq menq petq e iran yank anenq linuxeren asacs da pastna
+ctrl + y - pasta anum ktracsy,
+
+ctrl + shift + c - copy
+ctrl + shift + v - past
+
+bayc ctrl+y -ov pasta anum miayn ctrl+k -ov ktracsy, isk ctrl+shift+v -ov pasta anum miayn ctrl+shift+c -ov copy aracsy
+
+
+sandbox das 6
+vim-i keyboard tricks
+
+yy  - toxna copy anum, y(yank)
+p   - pasta anum
+u   - mi hat heta gnum, u(undo(hetarkel))
+b   - bari skzbi taric bar bar heta gnum aysinqn dsax
+w   - bari skzbi taric bar bar araja gnum aysinqn aj
+e   - bari verji taric bar bar araja gnum aysinqn aj
+gg  - galisa fayli skizb
+G kam shift+g  - fayli verja gnum
+dd   - toxy jnjuma
+
+h  - mi hat dsaxa gnum
+j  - mi hat nerqeva gnum
+k  - mi hat vereva gnum
+l  - mi hat aja gnum
+
+o kam O - mangamic poxancume insert rejim ev nor tox e bacum anmijapes cursoric mi hat nerqev
+
+cc - toxy jnjuma ev mtnuma insert rejim, isk visual 3 rejimneric mer nshacsy jnjuma ev mtnuma insert rejim
+
+esc  -  het e galis command mode(hramani rejim)
+i    - mtnum e insert rejim
+v    - mtnum e visual rejim
+V kam shift+v   - mtnum e ayspes asacs visual line rejim ev baci da es cankacacs gorcsoxutyun ditarkelu em tox ar tox, ev ayntex vortex coursorn e ayd toxy avtomat nshvum e amboxjutyamb, hima stex menq karox enq vimin poxancel inch vor hraman voch te hramanayin rejimov ayl stexneri mijocov voroncic meky klini jnjel ays erku toxy jnjelu hamar sexmum en (d) tary
+
+ctrl+v   - mtnum e ayspes asacs visual block rejim
+ystex sharjvume blok ar blok aysinqn vortex vor coursorn e aydtexic ete mi hat aj tanenq u mi hat nerqev knshvi et toxi ev nerqevi toxi hamapatasxan erku tarery
+
+
+
+
+
+2..
+mayisi 12    mayisi 13 veraberyal
+Kima Khachatryan
+  3:09 PM
+@channel Հարգելի ուսանողներ,
+Ձեր ընթերցանության թեման է
+:books:William Shotts, Chapters 12, 24 - 25
+
+
+chapter 12
+1.
+a gentle introduction to vi
+   why wi should learn vi
+   a little background
+   starting and stopping vi
+
+2.
+editing modes
+     entering insert mode 
+     saving our work 
+     moving the cursor around
+
+3.
+basic editing
+    opening a line
+    deleting text
+    cutting, copying, and pasting text
+    joining lines
+
+4.
+search and replace
+    searching within a line
+    searching the entire file
+global search-and-replace
+
+5. editing multiple files
+         switching between files
+         opening additional files for editing
+         Copying Content from One File into Another
+         Inserting an Entire File into Another
+         Saving Our Work
+         Summing up
+                  
+1.
+մի նուրբ ներածություն vi
+    ինչու wi պետք է սովորի vi
+    մի փոքր նախապատմություն
+    սկսել և դադարեցնել vi
+
+2.
+խմբագրման ռեժիմներ
+      մուտքագրման ռեժիմ
+      փրկելով մեր աշխատանքը
+      շարժելով կուրսորը շուրջը
+
+3.
+հիմնական խմբագրում
+     գիծ բացելը
+     տեքստի ջնջում
+     տեքստի կտրում, պատճենում և տեղադրում
+     միացման տողեր
+
+4.
+որոնել և փոխարինել
+     որոնում գծի մեջ
+     որոնում ամբողջ ֆայլը
+գլոբալ որոնում և փոխարինում
+
+5. բազմաթիվ ֆայլերի խմբագրում
+          ֆայլերի միջև անցում
+          բացելով լրացուցիչ ֆայլեր խմբագրման համար
+          Բովանդակության պատճենում մեկ ֆայլից մյուսը
+          Ամբողջ ֆայլը մյուսի մեջ զետեղելը
+          Փրկելով մեր աշխատանքը
+          Ամփոփելով
+
+
+
+3..
+Հարգելի ուսանողներ, ուղարկում եմ PATH ավելացնելու և հեռացնելու հրամանները:
+Linux_path.txt
+ 
+export PATH="$PATH:$HOME/Desktop/Atlas9"     // Command that adds a PATH
+export PATH=$(echo $PATH | sed 's|:~/Desktop/Atlas9||') // deletes the added PATH
+export PATH=$(echo $PATH | sed 's#/home/user/Desktop/atlas9##g') // another command for deleting the path

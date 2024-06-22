@@ -1,0 +1,220 @@
+
+process = code + data
+ays dasy verabervum e processnerin ev procesneri karavarmany linux hamakargum
+
+??????????????
+
+init, PID=1
+(indentifier)
+
+ps - report a snapshot of the current processes(zekucel yntacik gorcsntacneri patkery)
+
+
+top - cuyc e talis henc es pahin ashxatox processneri vichaky
+q  - n durse galis  topic
+
+
+1  : 04 :  25
+inchpes karoxenq procesi ashxatanqy yndhatel kanxel ev ayln ev ayln
+ctrl+c  - interrupt(yndhatel) e anum, yndhatum e
+
+xlogo - bacum e x-i logo, tesakanoren ankap anogtakar csragir vori npataky inch vor experimentner aneln e tekuz henc senc daseri shamanak
+gedit - bacum e teqstayin xmbagir
+
+
+xlogo &  - ashxatacnum e xlogo csragiry background um aysinqn fonvi rejimum, aysinqn ashxati bayc terminaly inds hasaneli lini
+[1] 7429  
+7429-y hamapatasxanabar xlogo process-i id-in e 
+[1]-y kochvum e job number, ashxatanqi aysinqn ashxatox task-i tivn e
+
+
+?????????????
+fg - fonground
+bg - background
+
+ctrl+z  - stop e anum csragiry
+
+???????????????
+
+1:13:25
+signalner haskacutyun - aysinqn menq karoxanum enq processnerin uxarkel signalner aysinqn azdanshanner,azdakner te inch enq uzum et processi het texi unena partadir chi et procesy menq senc ashxatacracs linenq menq karox enq aranc ashxatacnelu el ayl procesner
+
+kill -19 7846   -  -19 stop tal
+kill -18 7846   -  -18 sharunakel
+kill -9 7846    -  -9  spanel
+killall gedit   - spanel bolor geditnerin
+
+
+
+
+pstree - procesneri patkery csarov talis e, aysinqn ov um childn e ov um parentn e inch procesner kan es pahin ashxatox 
+
+
+
+
+
+
+10.
+printenv  - cuyc e talis environment variable-ner,dsax masum gtnvum e mijavayri popxakani anuny aj masum gtnvum e et popoxakani arjeqy aysinqn inch arjeq uni et popoxakani anuny
+SHELL=/bin/bash
+SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1743,unix/ubuntu:/tmp/.ICE-unix/1743
+QT_ACCESSIBILITY=1
+COLORTERM=truecolor
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+SSH_AGENT_LAUNCHER=gnome-keyring
+XDG_MENU_PREFIX=gnome-
+......
+
+echo $PATH = printenv PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+PATH   - PATH-y ogtagorcsvuma hramanneri koxmic ogtagorcsvuma shell-i koxmic vorpeszi pntri hramany kam csragiry hamapatasxanabar ..:..: es directorynerum, aysinqn hertov nayelov galisa te vortex e gtnvum orinak ls anunov hramany 
+
+
+printenv HOME
+/home/ubuntu
+
+HOME=
+
+printenv HOME
+
+cd ~
+
+pwd
+ubuntu@ubuntu:/home/ubuntu/impapka/WILE/l7ProcessesAndTheEnvironment$
+
+inchi senc katarvec vorovhetev es tildan asocacvelov home-i het irakanum expand(yndlanel)-a linum  poxarinelov iran es HOME environment variable-i arjeqov patkeracreciq
+aysinqn qani vor es iran drel em datark aysinqn datarkel em mijev et /home/user er hima datark nshanakuma es cd-ii koxqy tildayi texy grvuma datark u grvelov datark nshanakuma cd-in voch mi azdecutyun chi tali asyinqn  cd vochmiban vory nuynn e inch uxaki grenq cd
+
+
+ubuntu@ubuntu:/home/ubuntu/impapka/WILE/l7ProcessesAndTheEnvironment$ HOME=/etc
+ubuntu@ubuntu:/home/ubuntu/impapka/WILE/l7ProcessesAndTheEnvironment$ cd ~
+ubuntu@ubuntu:~$ pwd
+/etc
+ubuntu@ubuntu:~$ printenv HOME
+/etc
+ubuntu@ubuntu:~$ 
+
+
+
+1 : 31 : 00
+
+
+/etc/profile  - etc-um goyutyun uni profile anunov inch vor file vortex gtnvuma script vory ashxatuma erb vor shell-y dser arajin angam bacvuma aysinqn sa yndhanura bolor ogtagorcsoxneri hamar
+bayc amen ogtagorcsoxin specific goyutyun uni inch vor hidden file (.profile), goyutyun uni specific file vortex duq karox eq popoxutyunner katarel te inch eq uzum texi unena erb shell-y zagruzkaya linum 
+
+
+
+ubuntu@ubuntu:~$ vim .profile
+# the files are located in the bash-doc package.
+
+# the default umask is set in /etc/profile; for setting the umask
+# for ssh logins, install and configure the libpam-umask package.
+#umask 022
+
+# if running bash
+if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+        . "$HOME/.bashrc"
+    fi
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+      
+
+.bashrc -in en himnakan faylna vortex gtnvum en cankacacs environment variablener kam cankacacs gorcsoxutyun vor duq specific ogtagorcsoxi hamar uzum eq katarvi amen angam terminaly ashxatacneluc 
+
+ubuntu@ubuntu:~$ vim .bashrc
+.....
+alias wi=whatis
+
+
+wi man
+man (7)              - macros to format man pages
+man (1)              - an interface to the system reference manuals
+
+alias-y hishec sa aliasy hishec inchi vorovhetev erb terminaly ashxatuma ashxatuma /etc/profile vor ir hertin ashxatacnuma -> ./profile -y vornel ir hertin ashxatacnuma -> .bashrc
+.bashrc-um avelacnumem cankacacs aliasner environment veriable-ner inch vor scripter voronq uzumem ashxati cankacacs terminaly start taluc
+
+
+
+export PS1="Picsart Academy: ~$ "
+export PS1="Linux Module :~$ "
+
+PS1-in veragrum enq inch vor artahaytutyun prompt string(hushox tox)-y poxvuma et ogtagorcsoxin cucdrvox et voxjuyni teqsty poxvuma
+
+
+
+11.
+source  - ete alarum enq terminaly pakenq bacenq
+ete es uzum em popoxutyuny miangamic kardam u ashxatacnem es partadir chi terminaly pakem noric bacem es poxareny karox em ashxatacnel da source hramanov, source hramany ogtagorcselov inch vor file-i anun em talis file-i parnakutyuny karduma ev execute-a anum source-y aysinqn aktuala sarqum
+
+source ~/.bashrc   - aysinqn karda execute ara 
+
+wi man 
+man (7)              - macros to format man pages
+man (1)              - an interface to the system reference manuals
+
+(.bashrc-ii mej ete grumes orinak alias  heto sourcees anum vorpeszi chbace pakes heto jnjumes .bashrc-ii meji alias-y inqy meka mnuma karumes ogtagorcses mijev terminaly ches bacum pakum
+
+1 : 42 : 40
+
+12.
+package(patet)
+inchpes texadrel csragir linux hamakargum
+
+.1. amenahesht qayly ogtvel ays ubuntu software centre-ic 
+linux hamakargery ogtvum en central repository-ic (kentronakan pahocic)
+
+
+distributive(bashxich)
+Debian vs RedHat
+
+Debian
+ubuntu-n evs debian-i ashxarhica
+debian-i ashxarum packagenery voronq vor ogtagorcsvum en vorpes install-acion package-ner unen .deb yndlaynum esi debiandistributivneri sharqum
+
+dpkg -i inchvor.deb
+
+(apt install sl  (sranov harcum enq uxarkum serverin repository(pahoc)-in vortex gtnvuma ayd csragiry, repository-um hmapatasxanabar csragir gtnelov heta uxarkum internetov stex u es apt csragiry sksuma iran install anely 
+aysinqn ete es havaqum em u bnakanabar sudo-ov vorpes csragir install anox vor petqa admini permission-ov aneq eli  
+sudo apt install sl  u sexmum em enter bnakanabar passwordn e uzum u havaqeluc heto sksum e es downloadi processy inds cuyc talov
+
+sl-y cuyca talis ancnox poez
+
+
+RedHat
+RedHat-um packagenery unen .rpm extension(erkaradsgum)-y,   expansion(yndlaynum)
+
+
+
+ls ~/Downloads
+.. .. tsetup.4.7.0.tar.xz
+
+tsetup.4.7.0.tar.xz  -y iranic nerkayacnum e senc asacs arxiv komres aracs et hamapatasxan faylery et faylery karox en linel miangamic runably aysinq executable-y miangamic mejy karox e linel, karox en linel source-eric baxkacacs 
+
+tar csragiry ayspes asacs linux-i zip-na 
+tar-n poxancumem hamapatasxan optionner 
+tar xf tsetup.4.7.0.tar.xz
+
+
+.1. ubuntu software
+.2. sudo apt install
+.3. dbkg -i
+.4. tar arxivic anarxiv anelnna u ashxatacnely
+.5. tar arxivic anarxiv anelna u sourceric bild anelna, sa amenabard tarberakna henc local computeric bild anely
+
+
+
+
+
+

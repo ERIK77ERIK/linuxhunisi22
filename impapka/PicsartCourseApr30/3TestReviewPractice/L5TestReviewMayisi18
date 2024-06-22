@@ -1,0 +1,134 @@
+Stephen Prata,  C Primer Plus, Chapters 1, 2, 3
+Total points0/90
+Welcome, students! This is a self-check test specially designed 
+to evaluate your skills and knowledge. Please avoid using any external 
+resources while taking the test, as it is aimed at assessing your 
+current capabilities and identifying areas for improvement. Let's take 
+this opportunity to enhance your expertise!
+The respondent's email (erik2002vardanyan7777@gmail.com) was recorded on submission of this form.
+ 
+Which statements are true for the C programming language? *
+0/10
+C's design makes it natural for top-down planning, structured programming, and modular design.
+ 
+C is an efficient language.
+
+
+C is strongly type-oriented.
+C is an interpreted language.
+Correct answer
+C's design makes it natural for top-down planning, structured programming, and modular design.
+C is an efficient language.
+C is strongly type-oriented.
+ 
+What is a compiler? *
+0/10
+A compiler is a hardware device used to enhance computer performance.
+ 
+A compiler is a program that interprets and executes code line by line at runtime.
+A compiler is a program that translates a high-level language program into the detailed set of machine language instructions the computer requires.
+A compiler is a program that converts machine language code into a high-level language.
+Correct answer
+A compiler is a program that translates a high-level language program into the detailed set of machine language instructions the computer requires.
+ 
+
+What are the typical phases involved in the compilation of a C language program?
+*
+0/10
+Execution
+ 
+Syntax analysis
+Debugging
+Semantic analysis
+Intermediate code generation
+Optimization
+Interpretation
+Precompilation
+Correct answer
+Syntax analysis
+Semantic analysis
+Intermediate code generation
+Optimization
+ 
+Which of the following is a preprocessor directive? *
+0/10
+int main()
+ 
+return 0;
+#include
+printf
+Correct answer
+#include
+ 
+Which header file contains information about input and output functions in the C programming language? *
+0/10
+<stdlib.h>
+ 
+<math.h>
+<string.h>
+<stdio.h>
+Correct answer
+<stdio.h>
+ 
+Which of the following lines are comments? *
+0/10
+/* This is a C comment. */
+ 
+//This is a C comment.
+#This is a C comment.
+This is a C comment;
+(This is a C comment)
+Correct answer
+/* This is a C comment. */
+//This is a C comment.
+ 
+Which of the following lines will print "Hello!" on the screen in C programming language?
+*
+0/10
+scanf("Hello");
+ 
+cout << "Hello";
+printf("Hello!");
+Console.WriteLine("Hello");
+Correct answer
+printf("Hello!");
+ 
+Which of the following lines contains a syntax error? *
+0/10
+var int = 10;
+ 
+ind var = 10;
+//var int;
+char mySymbol = 'A'
+Correct answer
+ind var = 10;
+char mySymbol = 'A'
+ 
+Which of the following are C keywords? *
+0/10
+else
+ 
+int
+foo
+char
+var
+comment
+continue
+double
+sym
+Correct answer
+else
+int
+char
+continue
+double
+ 
+What should be added in this code to make it work without errors?
+Captionless Image
+#include
+ 
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+Correct answer
+#include <stdio.h>

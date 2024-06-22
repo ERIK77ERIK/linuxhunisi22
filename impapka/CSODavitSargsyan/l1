@@ -1,0 +1,76 @@
+1.
+csragiry hamakargchi procesorin(cpu-in) (henc procesorin ayl voch te operation hamakargin) haskanali lezvov grvacs hramanneri hajordakanutyunna
+
+csragiry compilacia ancneluc heto orinak windows operation hamakargum .exe extension(erkaradsgum)-ov fayla arajanum 
+es .exe extension-ov fayly arden ira mej parnakuma ira procesorin haskanali lezvov grvacs hramanneri hajordakanutyun 
+
+
+2.
+windows operation hamakargum cankacacs csragir ashxatacneluc heto tvyal os-y tvyal csragri hamar vercnuma anyndhat hishoxutyan taracsq rami mej miayn tvyal csragri hamar 
+u et anyndhat taracqy bashanvacsa segmentneri(hatvacsneri)
+
+takic verev -  code(csacskagir), data(tvyalner), heap(kuyt), stack(burg) u verevum os-i kernelin veraberox hatvacsy
+
+
+
+3.
+hima csragiry erb vor sksum enq ashxatacnel inqy es taracqy anyndhat taracqy vercnuma ram-i mej u es program.exe fayli parnakutyuny vory arden haskanalia procesorin inqy vercnum texapoxuma code segment-i hatvacs, code segment texapoxeluc heto cpu-n sksuma hertov code segmentic kardal mer gracs csragiry u irakanacnel 
+
+
+4.
+Von Neumann
+hima Von Neumann-i arxitekturayum code segmenti hatvacsy nuyn hishoxutyan taracquma gtnvum inch data segmenti hatvacsy u cpu-i hishoxutyan mej mi hat bac ka vorov ham hishoxutyunica data stanum ham instructionna kardum 
+
+Harvard
+i tarberutyan Von Neumann-i arxitekturayi Harvard-i arxitekturan codi hamar arandsin hishoxutyan ktor u arandsin bus uni instructianeri hamar dra shnorhiv inqy karuma miajamanak ham instructia get ani ham data rami mejic aysinqn zugaher karuma 2 gorcsoxutyun katari 
+
+
+nerkayis hamakargichnery himnakanum es 2i  miqs tarberaknen ogtagorcsum bayc himnakan principy Von Neymani arxitekturayi vraya himnvacs
+
+
+
+5.
+CPU organization(CPU-i kazmakerpuma)
+CPU(central processing unit(kentronakan mshakman sarq))
+
+.1.
+CU(Control Unit(karavarman sarq) - CU-n CPU-i hamakargox sarqna, CPU-i amboxj karavarumy yngacsy control unit-i vra
+
+CU -> to registers
+CU -> ALU
+CU -> Memory
+CU -> etc
+
+.2.
+ALU(arithmetic logic unit(tvabanakan tramabanakan sarq) - ALU-um katarvum en ayn bolor hanrahashvakan gorcsoxutyunnery voronq menq mer csragrum unenq
+
+.3.
+CPU Registers - hishoxutyan sarqer
+
+MAR - MAR-y nra hamara vor erb vor uzum enq mer hishoxutyan inch vor hasceic data vercnenq et hascen grum enq MAR register-i mej, et MAR register-ic hascen addres basov gnuma depi memory u memory-i et hasceov hatvacsic data-n vercnuma u data basi mijocov heta bervum u grvuma MBR registeri mej
+
+MBR - pahuma mejy data-i kod
+
+
+IP(instruction pointer(hrahangneri cucich))/PC(program counter(csragri hashvich)) - IP/PC-y ir mej pahuma hertakan hramani hascen u hertakan hramani hascen vory vor petqa katarvi misht grvuma IP/PC-i mej
+
+
+SP(stack pointer(burgi cucich)) - stack pointery iranic nerkayacnuma register vori mej pahvuma tvyal csragri stack segment-i stack-i gagati hascen 
+(stex etqan chxorananq)
+
+
+IR(instruction register) - IR-i mej pahvuma hertakan hramani kody 
+
+AC(accumulator(kutakich)) - CPU-n AC-i nman bazmativ registrner uni voronq ogtagorcsvuma himnakanum ira yntacik hramani gorcsoxutyunery,hashvarknery katarelu hamar 
+
+u CPU-i meji registrnery hishoxutyan ayn ktornern en voronq amenaaragn en hasaneli CPU-in
+
+
+
+6. 
+Address bus
+Data bus
+Control bus
+
+
+

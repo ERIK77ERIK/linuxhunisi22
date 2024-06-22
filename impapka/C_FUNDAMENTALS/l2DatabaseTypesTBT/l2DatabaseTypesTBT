@@ -1,0 +1,266 @@
+1.
+inchpes giteq csragravorman lezunery taranjatum enq erku tesaki yst iranc tiperi koxmnoroshvacsutyan
+mi tesakin asum enq 
+.1. value-oriented   - voroncic orinak javascriptna,  value-orented(arjeqayin koxmnoroshvacs)
+myus tesakin asum enq
+.2.
+type-oriented    - voroncic e C csragravorman lezun kam c++-y java-n ev ayln, type-oriented(tipi koxmonoroshvacs)
+type-oriented ayl kerp khandipeq strongly(xist) type, aysinqn cankacacs arjeq vori het menq ashxatum enq c csragravorman lezvum petq e unena hstak tip et, arjeqy verabervum e naev popoxakannerin
+
+
+2.
+tvyalneri inch tiper kan c-um ev inchpes enq menq dranq ogtagorcsum ev ayln ev ayln
+
+ksksenq amena nvazaguynic
+
+aysinqn tipery taranjatum enq yst iranc arjeqi mijakayqerii hamapatasxan byteri qanaki te qani byte taracsq en zbaxacnum et tipi tvyalnery hishoxutyunum ev inch gorcsoxutyun karox enq katarel 
+
+tvyalneri tip asvacsy data type-y erku karevor hatkutyan masin e 
+.2.1 size(chapy)  - te vorqan taracsq en zbaxacnelu hishoxutyan mej aysinqn chapy qani byte
+.2.2
+operations(gorcssaruytner) - inch gorcoxutyunner karox enq anel et arjeqi het, et tvyalneri tipy krox kam et tvyalneri tipi arjeqi het
+orinak ete menq ashxatum enq tveri het karox enq gumarel bajanel bazmapatkel ev ayln ete ashxatum enq toxeri het apa bashanel bazmapatkel toxer chenq karoxana ev ayspes sharunak
+
+
+3.
+tipery
+.1.
+poqraguyny da char tipn e, character(symbol(nish), tip), char(nish)
+u es charactery hamapatasxnabar ete vorpes tip ditarkenq nshanakum e menq hnaravorutyun unenq orinak artahaytel ays '' mekakan, mekaki kam ezaki chakertnerum gtnvox inch vor mek simvol csragrum 
+char a = 'a';
+a - identifier(nuynacucich)
+'a' - value(arjeq)
+
+char-y grelov menq haytnum enq compilatorin vor a popoxakani het asocacvox hishoxutyan taracsqy petq e lini 1 byte vorovhetev sahmanvacs e vor char-i chapy petq e lini 1byte
+
+#include <stdio.h>
+
+int main()
+{
+	char ch = 'a'; // initialize(skzbnavorel, skzbnarjeqavorel)
+	char ch2 = 'a';
+	printf("%c, %d \n", ch, ch2);
+}  
+
+gcc l2.c
+./a.out
+a, 97
+
+(
+error
+error .1.
+#include <stdio.h>
+
+int main() {
+        char a = "a";
+        printf("hello world %c \n", a);
+        return 0;
+}
+
+gcc l2.c
+error  ("") char a = "a";             
+
+error .2.
+#include <stdio.h>
+
+int main() {
+        char a = 'aaaa';
+        printf('hello world %c \n', a);
+        return 0;
+}
+
+gcc l2.c
+error ('') printf('hello world %c \n', a);
+)
+(
+havelyal informacia
+
+/*
+#include <stdio.h>
+
+int main()
+{
+        char ch = 'a';
+        char ch2 = 'a';
+        printf("%c %d \n",ch, ch2);
+
+        return 0;
+}
+// a, 97
+*/
+
+/*
+#include <stdio.h>
+
+int main() 
+{
+        char ch = 1;
+        char ch2 = 1;
+        printf("%c %d \n", ch, ch2);
+
+        return 0;
+}
+// 1  (%d-i 1 na tpum)
+*/
+
+
+
+/*
+#include <stdio.h>
+int main()
+{
+       int num = 3;
+       int num2 = 5;
+       printf("%d %c \n", num, num2);
+
+      return 0;
+}
+// 3
+*/
+
+
+/*
+#include <stdio.h>
+
+int main()
+{
+        int num = 'a';
+        int num2 = 'a';
+        printf("%d %c", num, num2);
+
+        return 0;
+}
+// 97 a
+*/
+
+// char u int kap chuni iranc veragracs tary  %c-ov tpeluc tarna berum %d-ov tpeluc hamapatasxan ascii tivy
+
+// char u int kap chuni iranc veragracs tivy %c-ov tpeluc chi cuyc talis %d-ov tpeluc tivy tpuma
+
+)
+
+?????????????  char / 1 byte
+?????????????  short / 2 byte, arnvazn 2 byte kara platformaic kaxvacs shat zbaxacni linuxi mej 2byte e
+?????????????  int / 4 byte, arnvazn 4 byte kara shatel lini linuxi mej 4 e, petq e lini shortic mecs kam havasar
+???????????? long / 8byte, linux-i mej 8e kara lini naev 4byte
+???????????? long long / 8byte, hastak 8byte
+
+
+.2.
+short-y da erku byte-anoc 2 byte chap unecox popoxakann e kam arjeqn e 
+short-y senc te nenc ira popoxakani hamar arandsnacnelu e 2byte taracsq, kap chuni et popoxakanin veragrvacs arjeqy orinak 14 e  vory ktexavorvi 1 byte-um miyevnuyn e et popoxakani hamar arandsnacnelu e kam hatkacnelu e 2byte taracq
+
+irakanum sa stantardizacvacs che, stantardizacvacs e ayn masy vor short-i zbaxecracs chapy arnvazn 2 byte e aysinqn menq vstah enq enq vor minimum amenaqichy 2 byte taracsq zbaxcnelu e short-ov stexcsacs popoxakany
+
+#inlude <stdio.h>
+
+int main()
+{
+	char ch = 'a'; // 1 byte
+	short sh = 1440; // 2 byte
+	printf("%c %d \n", ch, sh);
+}
+
+./a.out
+a 1440
+
+
+.3.
+.3.1
+int-y amenataracsvacs tver pahelu hamar tvyalneri tipn e, int-ov menq hatkacnum enq by defult ynduncvacs 4 byte taracq inch vor arjeq pahelu hamar 
+
+int-i ev short-i chapery stantardizacvac chen aysinqn menq karox enq unenal inch vor platvorf vortex int-y lini 2 byte ev hakarak inch vor platform vortex int-y lini 8 byte
+duq petq e himnveq nra vra vor short-i hamar sahmanvacs e vor arnvazn cankacacs platform arnvazn 2 byte petq e apahovi(bayc karox e naev dranic shat) isk int-y
+aveli mecs e misht chaperov mecshavasar e short-ic aysinqn ete short-y lini 2 byte apa int-y petq e lini 2 kam dranic aveli shat
+
+#inlude <stdio.h>
+
+int main()
+{
+        char ch = 'a';   // 1 byte
+        short sh = 1440; // 2 byte
+	int i = 55555;   // 4 byte
+        printf("%c %d %d \n", ch, sh, i);
+}
+
+
+gcc l2.c
+./a.out
+a 1440 55555
+
+
+.3.2
+int8_t aa = 44; - partadir 8bit, 1 byte
+in32_t x = 11; - partadir 32bit, 4 byte
+int_least8_t x = 12; - minimum 8 bit, 1byte
+int_fast8_t y 13; - 8bit, 1byte vory hnaravorins arag kashxati
+
+
+.4.
+long -  8byte, kara lini 4byte
+long long - 8byte, hstak 8 byte
+
+
+.5.
+float - 4 byte, IEEE 754 32-bit 
+.6.
+double - 8 byte, IEEE 754
+
+
+float
+sahox ketov tvery karox enq pahel float tipi mej kam double tipi mej
+(3.14, 5.0, 5.1)
+
+orinak 
+float f = 3.14f;
+double d = 3.14; // f grelu kariq chka vorovhetev default ditarkelu e vorpes double
+
+
+
+
+4.
+signed
+unsigned
+
+signed popoxakani depqum
+ete popoxakany zbaxacnuma 2byte(16bit) aysinqn 2-i 15 astichan minus 1 tiv kara amenashaty pahi vory havasara 2**14+2**13+...2**0 
+aysinqn amenamecs tivy vory ktexavorvi 15bit-um 
+isk 1bit-y nshani hamary ete 0-a drakana ete 1-a bacasakana 
+
+u ete signed popoxakana aysinqn nshanic kaxvacs apa 16bit-i depqum 2**16-1 ic minchev 2**15-1 gcc linuma anel bayc minusov tiva berum isk 2**16 aneluc warning-a berum u tpuma 0
+isk minus(-)-i depqum linuma pahel 2**15=-32768 ./a.out -32768
+-32769 ./a.out 32767 
+
+isk unsigned-i depqum ayd warningy beruma 2**16-1+1-i depqum
+
+
+5.
+formatner
+%d, %c
+%p(pointer) &sh 
+&  - cuyc atlis popoxakani hascen, vory petq e tvel %p formatov
+
+short sh = 1440;
+printf("%p \n", &sh);
+
+
+6. 
+havelyal informacia
+int x = 5555; // by default, literally(baracioren)
+mov eax 5555;
+mov eax [0x5555]; // sa nshanakum e menq uzumenq kardal ays hasceum gtnvox arjeqy u mov anenq eax registri mej
+
+aysinqn literally(5555) cankacacs tex vor tesnenq imaceq vor et arjeqy aknhaytoren henc instructiayi mas e kazmum voch te hishoxutyan mej taracq e zbaxacnum, bayc literally-y hishoxutyan mej taracq uni inqy zbaxacnum e en poqrik hatvacsy vor hatkacvacsa instructiain u et instructtiayi entaktorin vortex et literally-y gtnvum e bayc inqy vorpes arandsin hasce, arandsin hasceavorvox arjeq hishoxutyan mej chka i tarberutyun popoxakanneri 
+
+hima ete compilatory tesnum e tvayin literally
+orinak 5555 apa sa default ditarkelu e vorpes int 
+ete compilatory tesnelu e senc 3.14 literally apa sa default ditarkelu e vorpes double
+
+
+7.
+inch klini ete menq uzum enq 5555-y nerkayacnenq vorpes long voch te int, verjumavelacnum enq (l) tary
+sranov meenq hnaravorutyun enq talis (suffix(verjacsanc kirarelov) vor tivy ditarki vorpes long, tary tvic heto ekox naxanshum e ayn masin vor tivy ditarkvelu e vorpes l
+nuyny verabervum e float tipin(sahox ketov tver pahox), orinak 3.14f double 
+
+26:30
+34:00

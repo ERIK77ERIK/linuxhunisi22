@@ -1,0 +1,114 @@
+Code: The Hidden Language of Computer Hardware and Software, Chapters 12,13.
+Total points10/100
+Welcome, students! This is a self-check test specially designed 
+to evaluate your skills and knowledge. Please avoid using any external 
+resources while taking the test, as it is aimed at assessing your 
+current capabilities and identifying areas for improvement. Let's take 
+this opportunity to enhance your expertise!
+ 
+Նշված գծապատկերներից ո՞րն է պատկերում XOR-ի սխեման․ *
+0/10
+1․
+ 
+2․
+3․
+4․
+Correct answer
+2․
+ 
+Ի՞նչ կառուցվածք ունի Full Adder-ը․ *
+0/10
+Կազմված է մեկ Half Adder-ից և մեկ Logic gate-ից
+ 
+Կազմված է երկու Half Adder-ից և մեկ OR gate-ից
+Full Adder-ը կազմված է երկու XOR֊ից, երկու AND gate-ից և մեկ Half Adder-ից
+Ճիշտ տարբերակը բացակայում է
+Correct answer
+Կազմված է երկու Half Adder-ից և մեկ OR gate-ից
+ 
+Ի՞նչ կստացվի երկուական համակարգով գրված նշանից անկախ հետևյալ թվերի գումարման արդյունքում(արտահայտված 8 բիթում)` 11010111 + 11110111․ *
+0/10
+11110110
+ 
+11001110
+11001010
+10000110
+Correct answer
+11001110
+ 
+Ո՞ր սարքի սխեման է պատկերված նկարում․ *
+0/10
+Captionless Image
+8֊բիթանի Adder
+4-բիթանի Adder
+ 
+16֊բիթանի Subtractor
+8-բիթանի Adder/Subtractor
+Correct answer
+8-բիթանի Adder/Subtractor
+ 
+Նշվածներից որո՞նք են արտահայտում Դե Մորգանի բանաձևերը․  *
+0/10
+! (x & y) = !x ^ !y
+!x | !y = !(x & y)
+!(a | b) = !a & !b
+ճիշտ տարբերակը բացակայում է
+ 
+Correct answer
+!x | !y = !(x & y)
+!(a | b) = !a & !b
+ 
+Ի՞նչ միջակայքի թվեր կարելի է արտահայտել նշանից կախված 10 բիթում․ *
+0/10
+[0, 1024]
+ 
+(-512, 512]
+[-511, 512)
+[-512, 511]
+Correct answer
+[-512, 511]
+ 
+10-ական համակարգում ամենաբարձր թվանշանից հանելիի հանման արդյունքը անվանում են․ *
+0/10
+inverse
+ 
+ones’ complement
+nines’ complement
+ten’s complement
+underflow
+Correct answer
+nines’ complement
+ 
+Ի՞նչ կտպի հետևյալ կոդի կատարման արդյունքում․ *
+0/10
+Captionless Image
+7 3
+3 3
+7 7
+0 0
+1 1
+ 
+num1 num2
+Correct answer
+7 3
+ 
+Ի՞նչ կտպի հետևյալ կոդի կատարման արդյունքում․ *
+10/10
+Captionless Image
+x is 5
+ 
+x is 5y is 10
+y is 10
+Ոչինչ չի տպի, compile error կա
+ 
+Ի՞նչ կտպի հետևյալ կոդի կատարման արդյունքում, եթե օգտագործողի կողմից մուտքագրվել է # սիմվոլը։
+*
+0/10
+Captionless Image
+# is a vowel
+ 
+# is a consonant
+# is neither a vowel nor a consonant
+Ոչինչ չի տպի, compile error կա
+Correct answer
+# is neither a vowel nor a consonant

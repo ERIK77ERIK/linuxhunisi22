@@ -1,0 +1,144 @@
+Registers and Intro to the Assembly Language
+Total points40/100
+ 
+Welcome, students! This is a self-check test specially designed 
+to evaluate your skills and knowledge. Please avoid using any external 
+resources while taking the test, as it is aimed at assessing your 
+current capabilities and identifying areas for improvement. Let's take 
+this opportunity to enhance your expertise!
+The respondent's email (erik2002vardanyan7777@gmail.com) was recorded on submission of this form.
+Имя *
+Erik Vardanyan
+Адрес электронной почты *
+erik2002vardanyan7777@gmail.com
+ 
+Հիշողության ո՞ր սարքերն են կառուցված SRAM մոտեցմամբ։
+*
+10/10
+registers
+ 
+main memory
+physicl cache memory
+ 
+Բոլոր պատասխանները ճիշտ են
+ 
+Ո՞ր flag-ն  է արժեքավորվում, երբ նշանից կախված թվաբանական գործողության արդյունքը չափազանց մեծ է, կամ շատ փոքր անհրաժեշտ բիթերում տեղավորվելու համար։
+*
+5/5
+Carry flag
+Overflow flag
+ 
+Auxilary carry flag
+Zero flag
+ 
+Ի՞նչ սեկցիաներ են օգտագործվում ասամբլերական ծրագրում։
+*
+10/10
+code
+data
+ 
+text
+ 
+bss
+ 
+read only
+ 
+Ծրագրի entry point-ը այն հրամանի հասցեն է, *
+0/10
+որտեղից սկսվում է .data սեկցիան
+որտեղից սկսվում է .text սեկցիան
+որտեղից սկսվելու է ծրագրի կատարումը և հիմնականում main ֆունկցիան է
+ 
+որը գտնվում է ծրագրի ամենասկզբում
+Correct answer
+որտեղից սկսվում է .text սեկցիան
+ 
+Նշվածներից ո՞րը չի հանդիսանում flag? *
+10/10
+Carry
+Unsigned
+ 
+Parity
+Undefined
+ 
+Sign
+ 
+Քանի՞ բիթ է ներկայացնում  dd տիպը։
+*
+···/10
+4
+ 
+Correct answer
+32
+ 
+Ո՞ր սեկցիան է օգտագործվում հայտարարված, բայց չսկզբնարժեքավորված փոփոխականները պահելու համար։
+*
+···/10
+.bss
+ 
+Correct answers
+․bss
+bss
+BSS
+.BSS
+.Bss
+ 
+Ի՞նչ  keyword է անհրաժեշտ, որպեսզի մեր ասամբլերական ծրագում օգտագործենք “printf” ֆունկցիան։
+0/5
+Include
+Extern
+Define
+ 
+Using
+Correct answer
+Extern
+ 
+Նշվածներից որո՞նք ընդհանուր օգտագործման 32֊բիթանոց ռեգիստրներ չեն։
+0/10
+RAX
+EBP
+ 
+ECX
+ES
+DE
+ESI
+ 
+Correct answer
+RAX
+ES
+DE
+ 
+Պնդումներից ո՞րն է ճիշտ AX ռեգիստրի վերաբերյալ։
+5/5
+Այդպիսի ռեգիստր գոյություն չունի
+AX-ը 8 բիթ է և ներառում է իր մեջ AH֊ն ու AL֊ը
+Չենք կարող ուղղակիորեն հասանելիություն ստանալ AX ռեգիստրին
+Այն ներառում է AH և AL ռեգիստրներ, որոնք երկուսն էլ 8 բիթ են
+ 
+ 
+Կա՞ ROM-ի տեսակ, որը կարելի է ջնջել ուլտրամանուշակագույն լույսով: Եթե ​​այո, ինչպե՞ս է այն կոչվում:
+···/5
+no
+ 
+Correct answers
+EPROM
+eprom
+ 
+Սահող կետով թվերի հետ աշխատանքը իրականացնում է ALU֊ն։
+0/5
+Ճիշտ
+ 
+Սխալ
+Correct answer
+Սխալ
+ 
+Ո՞րն է makefile-ի հիմնական նպատակը, երբ օգտագործվում է make֊ի կողմից:
+
+0/5
+Ծրագիրը կոմպիլացնել
+ 
+Կոմպիլացնել և աշխատացնել ծրագիրը
+Ավտոմատացնել ծրագրի ստեղծումը
+Ֆայլի այսպիսի տիպ գոյություն չունի
+Correct answer
+Ավտոմատացնել ծրագրի ստեղծումը
